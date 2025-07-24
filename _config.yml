@@ -154,7 +154,7 @@ footer:
       icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Chrome"
-      icon: "chrome"
+      icon: "fa-brands fa-chrome"
       url: "https://www.google.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
