@@ -336,7 +336,8 @@ defaults:
       read_time: true
       comments: # true
       share: true
-      related: true
+      show_date: true
+      date_format: "%Y-%m-%d"
   # _portfolio
   - scope:
       path: ""
