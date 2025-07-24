@@ -338,6 +338,7 @@ defaults:
       share: true
       show_date: true
       date_format: "%Y-%m-%d"
+      read_time: true
   # _portfolio
   - scope:
       path: ""
