@@ -96,7 +96,7 @@ toc_icon: "church"
 {: .notice--info}
 
 ## - 추모사
-- 이인영 집사님의 신앙, 따듯했던 기억등을 나눕니다.
+- 이인영 집사님의 신앙, 따듯했던 기억
 > “아버지는 평생 가족을 위해 헌신하셨고, 신실한 믿음의 본을 보이셨습니다...”
 
 &emsp;&emsp;<a href="#" class="btn btn--success">Back to top</a>
