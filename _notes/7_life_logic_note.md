@@ -6,8 +6,8 @@ toc: true
 toc_label: "추도 예배 순서"
 toc_icon: "church"
 # sidebar:
-  title: "노트 더보기"
-  nav: sidebar-notes
+  # title: "노트 더보기"
+  # nav: sidebar-notes
 ---
 
 🏡 생활 로직 정리!
