@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 추도 예배
-excerpt: 일곱번째 노트
+excerpt: 2025.07.31
 toc: true
 toc_label: "추도 예배 순서"
 toc_icon: "church"
