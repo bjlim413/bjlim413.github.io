@@ -2,7 +2,7 @@
 layout: single
 title: "Movie"
 categories:
-  - Websites
+  - Movies
 ---
 
 # 베놈 라스트댄스
