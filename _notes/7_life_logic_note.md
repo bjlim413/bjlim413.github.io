@@ -16,7 +16,7 @@ toc_icon: "church"
 - 다 함께 묵도하심으로 예배를 시작하겠습니다.
 
   📖 시편 23:1 여호와는 나의 목자시니 내게 부족함이 없으리로다  
-{: .notice--info}
+  {: .notice--info}
 
 &emsp;<a href="#" class="btn btn--success">Back to top</a>
 <br> 
@@ -26,7 +26,7 @@ toc_icon: "church"
 - 다 함께 찬송가 305장을 찬송하겠습니다.
   
   📖 찬송가 305장 사철에 봄바람 불어 있고
-{: .notice--info}
+  {: .notice--info}
 
 - 1절
   ```
