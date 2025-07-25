@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 생활 로직
+title: 추도 예배
 excerpt: 일곱번째 노트
 toc: true
 toc_label: "추도 예배 순서"
@@ -10,12 +10,9 @@ toc_icon: "church"
   # nav: sidebar-notes
 ---
 
-🏡 생활 로직 정리!
-
-# 1. 소개
-- 안녕하세요.
-- 8년차 소프트웨어 개발자 입니다.
-- ERP 개발자로 일하는 중 입니다.
+# 1. 예배의 부름
+📖 시편 23:1 여호와는 나의 목자시니 내게 부족함이 없으리로다  
+{: .notice--info}
 
 &emsp;<a href="#" class="btn btn--success">Back to top</a>
 <br> 
@@ -32,7 +29,7 @@ toc_icon: "church"
 ## 2.1. 프로그램 운영
 <h3>- ERP 프로그램 운영</h3>
   
-📓 문의 접수 및 조치방법 안내를 합니다. <br> &emsp;- AP, AR, GL 모듈 관련 이슈사항 처리 <br> &emsp;- TR(예적금, 유가증권, 수금생성, B/L인수) 프로세스 확인 <br> &emsp;- 예산 업로드 실행 및 내역 관련 검증 <br> &emsp;- 명세서, 부가세, Concurrent 검증 및 모니터링 <br> &emsp;- 원가 모니터링 후 미착상품과 상품대체 사후조치 <br> &emsp;- ERP와 I/F된 프로시저 모니터링 및 에러 조치 <br> &emsp;- 출장 전표발행 가이드 및 유지보수 <br> &emsp;- 펌뱅킹/전자세금계산서/EDI 시스템 모니터링 <br> &emsp;- Web Adi 관련 매크로 설정 및 기능 안내 <br> &emsp;- 프로그램 보완개발 및 신규개발 진행 <br> &emsp;- 사용자 계정 생성 및 권한 관리 <br> &emsp;- 데이터 추출 및 전달 <br> &emsp;- 프로세스 안내 및 데이터 의미 설명 
+📖 시편 23:1 여호와는 나의 목자시니 내게 부족함이 없으리로다  
 {: .notice--info}
 
 - 2025년 6월
