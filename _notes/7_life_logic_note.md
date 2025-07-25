@@ -11,8 +11,14 @@ toc_icon: "church"
 ---
 
 # 1. 예배의 부름
+<h3>인도자</h3>
 📖 시편 23:1 여호와는 나의 목자시니 내게 부족함이 없으리로다  
 {: .notice--info}
+
+- 묵도
+> <h6> 하나님 앞에 경건힌 마음으로 시작합니다. </h6>
+> - 다 함께 묵도하심으로 예배를 시작하겠습니다.
+> {: .notice}
 
 &emsp;<a href="#" class="btn btn--success">Back to top</a>
 <br> 
