@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 2025년 7월 31일
+title: 2025년 7월 31일(목)
 excerpt: 2025.07.31
 toc: true
 toc_label: "추도 예배 순서"
