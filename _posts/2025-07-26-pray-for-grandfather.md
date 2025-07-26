@@ -8,6 +8,8 @@ toc_icon: "church"
 # sidebar:
   # title: "노트 더보기"
   # nav: sidebar-notes
+categories:
+  - worship
 ---
 
 <br>
