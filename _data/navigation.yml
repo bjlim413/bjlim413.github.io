@@ -2,21 +2,21 @@
 main:
   - title: "Configuration"
     url: "https://mmistakes.github.io/minimal-mistakes/docs/configuration/#theme"
-  - title: "About"
+  #- title: "About"
     url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Sample Posts"
+  #- title: "Sample Posts"
     url: https://iregg.github.io/header-image-overlay/
-  - title: "News"
+  #- title: "News"
     url: https://iregg.github.io/news/
-  - title: "Video"
+  #- title: "Video"
     url: https://iregg.github.io/post%20formats/video-play/
-  - title: "Categories"
+  #- title: "Categories"
     url: https://iregg.github.io/categories/
-  - title: "Sample Collections"
+  #- title: "Sample Collections"
     url: /collection-archive/
-  - title: "Sitemap"
+  #- title: "Sitemap"
     url: /sitemap/
-  - title : "Notes"
+  #- title : "Notes"
     url : https://iregg.github.io/notes/
   
 # sidebar-sample links
