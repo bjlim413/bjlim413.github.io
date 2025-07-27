@@ -294,6 +294,7 @@ select * from ar_receipt_applications_all;
 <br><br>
 # 5.출입증
 ## 5.1.등록
+### - 방재실
 - 방재실 방문하여 스피드게이트 등록
   ```
   신규 / 기존 구분하여 등록
@@ -303,6 +304,7 @@ select * from ar_receipt_applications_all;
   ⏰️ TIP <br> 1. 담당자 부재 시 회사,층수,연락처 기재 <br> 2. 등록 완료 후 담당자가 메시지 발송 <br> 3. 출입증 픽업
   {: .notice}
 
+### - 단말기
 - 단말기에 사용자 등록
   ```
   마지막 사용자 번호: 404
