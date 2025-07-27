@@ -6,7 +6,7 @@ toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"  # corresponding Font Awesome icon name (without fa prefix)
 sidebar:
-  title: "노트 더보기"
+  title: "More Notes.."
   nav: sidebar-notes
 ---
 
