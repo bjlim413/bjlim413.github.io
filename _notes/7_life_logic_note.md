@@ -27,7 +27,7 @@ sidebar:
 결국 삶의 목적은 고정된 것이 아니라, 살아가며 만들어지는 것일지도 모릅니다.
 {: .notice--warning}
 
-&emsp;&emsp;<a href="#" class="btn btn--success">Back to top</a>
+<a href="#" class="btn btn--success">Back to top</a>
 <br> 
 
 <br><br>
