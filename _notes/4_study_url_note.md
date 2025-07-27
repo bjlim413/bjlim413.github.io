@@ -1,12 +1,12 @@
 ---
 layout: single
-title: 공부 URL
-excerpt: 네번째 노트
+title: Study URL
+excerpt: 4th Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "file"
 sidebar:
-  title: "노트 더보기"
+  title: "More Notes.."
   nav: sidebar-notes
 ---
 
