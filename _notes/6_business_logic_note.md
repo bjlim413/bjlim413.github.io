@@ -168,28 +168,42 @@ Other Error : ORA-01403: no data found
 2.미등록 제품서비스인 경우 회계팀에 요청하여 등록 <br>
 3.인터페이스 재실행 후 전표 생성 <br>
 {: .notice}
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 ### - 인터페이스 진행중 상태 (GL)
-  ```sql
-  # 현상:
-  INTERFACE_FLAG 값이 'P',
-  ERP_IMPORT_FLAG 값이 'Y',
-  JOURNAL_NAME이 NULL인 상태
-  ```
-  ⏰️ TIP <br> 1. gl_interface 테이블에 내역 확인<br> 2. 내역 있으면 삭제 <br> 3. 인터페이스 초기화 <br> &nbsp;&nbsp;- INTERFACE_FLAG = 'N' <br> &nbsp;&nbsp;- ERP_IMPORT_FLAG = 'N' <br> &nbsp;&nbsp;- 인터페이스 재실행 후 전표 생성
-  {: .notice}
-
+```sql
+# 현상:
+INTERFACE_FLAG 값이 'P',
+ERP_IMPORT_FLAG 값이 'Y',
+JOURNAL_NAME이 NULL인 상태
+```
+⏰️ TIP <br> 
+1. gl_interface 테이블에 내역 확인<br> 2. 내역 있으면 삭제 <br>
+3. 인터페이스 초기화 <br>
+&nbsp;&nbsp;- INTERFACE_FLAG = 'N' <br>
+&nbsp;&nbsp;- ERP_IMPORT_FLAG = 'N' <br>
+&nbsp;&nbsp;- 인터페이스 재실행 후 전표 생성
+{: .notice}
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
 ### - 인터페이스 진행중 상태 (AR)
-  ```sql
-  INTERFACE_FLAG 값이 'P',
-  ERP_IMPORT_FLAG 값이 'Y',
-  TRX_NUMBER가 생성된 상태
-  ```
-  ⏰️ TIP <br> 1. FCM에서 trx_number 확인 <br> 2. AR전표 생성된 경우 전자세금계산서 발행여부 확인 <br> 3. 인터페이스 완료처리 <br> &ensp;- INTERFACE_FLAG = 'Y' <br> &ensp;- ERP_IMPORT_FLAG = 'C' <br> &ensp;- 전자세금계산서 인터페이스 실행
-  {: .notice}
+```sql
+INTERFACE_FLAG 값이 'P',
+ERP_IMPORT_FLAG 값이 'Y',
+TRX_NUMBER가 생성된 상태
+```
+⏰️ TIP <br>
+1. FCM에서 trx_number 확인 <br>
+2. AR전표 생성된 경우 전자세금계산서 발행여부 확인 <br>
+3. 인터페이스 완료처리 <br>
+&ensp;- INTERFACE_FLAG = 'Y' <br>
+&ensp;- ERP_IMPORT_FLAG = 'C' <br>
+&ensp;- 전자세금계산서 인터페이스 실행
+{: .notice}
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 ### - 인터페이스 진행중 상태 (AP)
   ```sql
