@@ -29,6 +29,11 @@ sidebar:
 
 <br><br>
 # ㅁ
+## M365 관리자 사이트
+● M365 사용자들의 상태를 점검하고 암호 재설정을 해주세요.
+<a href="https://admin.microsoft.com/" class="btn btn--info">M365 관리자 바로가기</a>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 <br><br>
 # ㅂ
