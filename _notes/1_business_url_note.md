@@ -8,8 +8,6 @@ toc_icon: "book"  # corresponding Font Awesome icon name (without fa prefix)
 sidebar:
   title: "노트 더보기"
   nav: sidebar-notes
-categories:
-  - notelink
 ---
 
 # 사이트 목록
