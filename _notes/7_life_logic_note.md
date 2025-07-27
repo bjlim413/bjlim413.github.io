@@ -1,9 +1,9 @@
 ---
 layout: single
-title: Worship
-excerpt: 7th Note - Pray for Grandfather
+title: Life Logic
+excerpt: 7th Note
 toc: true
-toc_label: "추도 예배 순서"
+toc_label: "table of  contents"
 toc_icon: "church"
 # sidebar:
   # title: "More Notes"
