@@ -1,12 +1,12 @@
 ---
 layout: single
-title: 유투브 URL
-excerpt: 다섯번째 노트
+title: Youtube URL
+excerpt: 5th Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "video"
 sidebar:
-  title: "노트 더보기"
+  title: "More Notes.."
   nav: sidebar-notes
 ---
 
