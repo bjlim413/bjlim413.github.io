@@ -3,7 +3,7 @@ layout: single
 title: Business URL
 excerpt: 1st Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "book"  # corresponding Font Awesome icon name (without fa prefix)
 sidebar:
   title: "노트 더보기"
