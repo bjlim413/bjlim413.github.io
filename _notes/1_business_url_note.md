@@ -75,7 +75,7 @@ sidebar:
 
 ## 한국렌탈 고객정보사이트
 ● 렌탈한 장비 내역을 한번에 확인해보세요.
-<a href="https://www.krsmart.com/login" class="btn btn--info">렌탈 내역 바로가기</a>
+<a href="https://www.krsmart.com/login" class="btn btn--info">한국렌탈 바로가기</a>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
