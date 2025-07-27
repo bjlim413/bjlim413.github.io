@@ -119,15 +119,15 @@ sidebar-notes:
         url: https://bjlim413.github.io/notes/5_youtube_url_note/
   - title: "Logic Notes"
     children:
-      - title: "Business Logic"
+      - title: "- Business Logic"
         url: https://bjlim413.github.io/notes/6_business_logic_note/
-      - title: "Life Logic"
+      - title: "- Life Logic"
         url: https://bjlim413.github.io/notes/7_life_logic_note/
-      - title: "금융 로직"
+      - title: "- Financial Logic"
         url: https://bjlim413.github.io/notes/8_financial_logic_note/
-      - title: "관계 로직"
+      - title: "- Relations Logic"
         url: https://bjlim413.github.io/notes/9_relations_logic_note/
-      - title: "소스 로직"
+      - title: "- Code Logic"
         url: https://bjlim413.github.io/notes/10_code_logic_note/
   - title: "To Do Notes"
     children:
