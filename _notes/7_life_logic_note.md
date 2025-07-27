@@ -76,7 +76,7 @@ sidebar:
 우리는 스스로를 잃어버리기도 합니다.
 
 삶이란 결국, 내가 나를 이해하고, 받아들이고, 표현해가는 과정일 수 있습니다.
-{: .notice--important}
+{: .notice--primary}
 
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
