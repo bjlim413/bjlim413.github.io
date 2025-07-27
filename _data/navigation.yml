@@ -105,12 +105,12 @@ sidebar-news:
 
 # sidebar-notes links
 sidebar-notes:
-  - title: "URL 노트"
+  - title: "URL Note"
     children:
-      - title: "업무 URL"
-        url: https://iregg.github.io/notes/1_business_url_note/
-      - title: "TV URL"
-        url: https://iregg.github.io/notes/2_tv_url_note/
+      - title: "Business URL"
+        url: https://bjlim413.github.io/notes/1_business_url_note/
+      - title: "Movie URL"
+        url: https://bjlim413.github.io/notes/2_movie_url_note/
       - title: "만화 URL"
         url: https://iregg.github.io/notes/3_cartoon_url_note/
       - title: "공부 URL"
