@@ -179,8 +179,8 @@ ERP_IMPORT_FLAG 값이 'Y',
 JOURNAL_NAME이 NULL인 상태
 ```
 ⏰️ TIP <br> 
-1. gl_interface 테이블에 내역 확인<br> 2. 내역 있으면 삭제 <br>
-3. 인터페이스 초기화 <br>
+1.gl_interface 테이블에 내역 확인<br> 2.내역 있으면 삭제 <br>
+3.인터페이스 초기화 <br>
 &nbsp;&nbsp;- INTERFACE_FLAG = 'N' <br>
 &nbsp;&nbsp;- ERP_IMPORT_FLAG = 'N' <br>
 &nbsp;&nbsp;- 인터페이스 재실행 후 전표 생성
@@ -195,9 +195,9 @@ ERP_IMPORT_FLAG 값이 'Y',
 TRX_NUMBER가 생성된 상태
 ```
 ⏰️ TIP <br>
-1. FCM에서 trx_number 확인 <br>
-2. AR전표 생성된 경우 전자세금계산서 발행여부 확인 <br>
-3. 인터페이스 완료처리 <br>
+1.FCM에서 trx_number 확인 <br>
+2.AR전표 생성된 경우 전자세금계산서 발행여부 확인 <br>
+3.인터페이스 완료처리 <br>
 &ensp;- INTERFACE_FLAG = 'Y' <br>
 &ensp;- ERP_IMPORT_FLAG = 'C' <br>
 &ensp;- 전자세금계산서 인터페이스 실행
