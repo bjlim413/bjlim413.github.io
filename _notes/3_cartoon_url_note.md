@@ -1,18 +1,25 @@
 ---
 layout: single
 title: 만화 URL
-excerpt: 세번째 노트
+excerpt: 3rd Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "image"
 sidebar:
-  title: "노트 더보기"
+  title: "More Notes.."
   nav: sidebar-notes
 ---
 
 📚 웹툰.
 ## 뉴토끼
-● 웹툰 소설.<br><a href="https://newtoki468.com/" class="btn btn--info">뉴토끼 바로가기</a>
-<br>
+● 웹툰 소설.
+<a href="https://newtoki468.com/" class="btn btn--info">뉴토끼 바로가기</a>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
+
+## 신의탑
+● 자신의 모든 것이었던 소녀를 쫓아 탑에 들어온 소년 그리고 그런 소년을 시험하는 탑.
+<a href="https://newtoki468.com/webtoon/368/%EC%8B%A0%EC%9D%98%ED%83%91?stx=%EC%8B%A0%EC%9D%98%ED%83%91&sst=as_update&sod=desc&toon=%EC%9D%BC%EB%B0%98%EC%9B%B9%ED%88%B0" class="btn btn--info">뉴토끼 바로가기</a>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
+
