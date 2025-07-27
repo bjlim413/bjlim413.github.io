@@ -1,7 +1,7 @@
 ---
 layout: single
-title: 업무 URL
-excerpt: 첫번째 노트
+title: Business URL
+excerpt: 1st Note
 toc: true
 toc_label: "테이블 오브 콘텐츠"
 toc_icon: "book"  # corresponding Font Awesome icon name (without fa prefix)
