@@ -5,19 +5,19 @@ main:
   - title: "Invite Wedding"
     url: https://invitewedding.p-e.kr/20251129
   #- title: "Sample Posts"
-    url: https://iregg.github.io/header-image-overlay/
+    #url: https://iregg.github.io/header-image-overlay/
   #- title: "News"
-    url: https://iregg.github.io/news/
+    #url: https://iregg.github.io/news/
   #- title: "Video"
-    url: https://iregg.github.io/post%20formats/video-play/
+    #url: https://iregg.github.io/post%20formats/video-play/
   #- title: "Categories"
-    url: https://iregg.github.io/categories/
+    #url: https://iregg.github.io/categories/
   #- title: "Sample Collections"
-    url: /collection-archive/
+    #url: /collection-archive/
   #- title: "Sitemap"
-    url: /sitemap/
+    #url: /sitemap/
   #- title : "Notes"
-    url : https://iregg.github.io/notes/
+    #url : https://iregg.github.io/notes/
   
 # sidebar-sample links
 sidebar-sample:
