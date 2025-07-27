@@ -35,13 +35,18 @@ sidebar:
 <br><br>
 # ㄷ
 ## 다우오피스 홈페이지(STX)
-● DAOU 다우기술
+● STX 그룹웨어 사이트
 <a href="https://ep.stx.co.kr/login" class="btn btn--info">STX 그룹웨어 바로가기</a>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
 <br><br>
 # ㄹ
+## 뤼튼
+● AI 도구 (채팅, 이미지 생성, 자기소개서 등)
+<a href="https://wrtn.ai/" class="btn btn--info">뤼트 바로가기</a>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 <br><br>
 # ㅁ
@@ -56,6 +61,11 @@ sidebar:
 
 <br><br>
 # ㅅ
+## 소프트웨어 경력관리시스템
+● 개발자의 경력 관리를 체계적으로 설정해보세요
+<a href="https://career.sw.or.kr/" class="btn btn--info">소프트웨어 경력관리시스템 바로가기</a>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 <br><br>
 # ㅇ
