@@ -158,8 +158,7 @@ select * from ar_receipt_applications_all;
 <br>
 
 ## 2.6.인터페이스 에러
-### - Type1
-- Salesperson 미등록
+### - Salesperson 미등록
   ```sql
   # 에러내역:
   Other Error : ORA-01403: no data found
@@ -167,7 +166,7 @@ select * from ar_receipt_applications_all;
   ⏰️ TIP <br> 1. 제품서비스 등록 여부 확인 <br> 2. 미등록 제품서비스인 경우 회계팀에 요청하여 등록<br> 3. 인터페이스 재실행 후 전표 생성
   {: .notice}
 
-- 인터페이스 진행중 상태 (GL)
+### - 인터페이스 진행중 상태 (GL)
   ```sql
   # 현상:
   INTERFACE_FLAG 값이 'P',
@@ -180,8 +179,7 @@ select * from ar_receipt_applications_all;
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
-### - Type2
-- 인터페이스 진행중 상태 (AR)
+### - 인터페이스 진행중 상태 (AR)
   ```sql
   INTERFACE_FLAG 값이 'P',
   ERP_IMPORT_FLAG 값이 'Y',
@@ -190,7 +188,7 @@ select * from ar_receipt_applications_all;
   ⏰️ TIP <br> 1. FCM에서 trx_number 확인 <br> 2. AR전표 생성된 경우 전자세금계산서 발행여부 확인 <br> 3. 인터페이스 완료처리 <br> &ensp;- INTERFACE_FLAG = 'Y' <br> &ensp;- ERP_IMPORT_FLAG = 'C' <br> &ensp;- 전자세금계산서 인터페이스 실행
   {: .notice}
 
-- 인터페이스 진행중 상태 (AP)
+### - 인터페이스 진행중 상태 (AP)
   ```sql
   INTERFACE_FLAG 값이 'P',
   ERP_IMPORT_FLAG 값이 'Y',
@@ -202,8 +200,7 @@ select * from ar_receipt_applications_all;
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
-### - Type3
-- DB Lock
+### - DB Lock
   ```sql
   # 에러내역:
   Other Error : ORA-20001: You cannot delete a posted record.
