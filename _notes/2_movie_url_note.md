@@ -1,9 +1,9 @@
 ---
 layout: single
-title: TV URL
-excerpt: 두번째 노트
+title: Movie URL
+excerpt: 2nd Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "tv"
 sidebar:
   title: "노트 더보기"
