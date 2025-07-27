@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Business Logic
-excerpt: 6th Notes
+excerpt: 6th Note
 toc: true
 toc_label: "테이블 오브 콘텐츠"
 toc_icon: "business-time"
