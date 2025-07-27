@@ -3,7 +3,7 @@ layout: single
 title: Business Logic
 excerpt: 6th Note
 toc: true
-toc_label: "테이블 오브 콘텐츠"
+toc_label: "Table of Contents"
 toc_icon: "business-time"
 sidebar:
   title: "노트 더보기"
