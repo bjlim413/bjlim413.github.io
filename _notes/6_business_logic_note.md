@@ -161,7 +161,7 @@ select * from ar_receipt_applications_all;
 ### - Salesperson 미등록
 > ```sql
 > # 에러내역:
-> Other Error : ORA-01403: no data > found
+> Other Error : ORA-01403: no data  found
 > ```
 > ⏰️ TIP 
 > 1.제품서비스 등록 여부 확인
