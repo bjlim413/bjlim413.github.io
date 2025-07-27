@@ -105,7 +105,7 @@ sidebar-news:
 
 # sidebar-notes links
 sidebar-notes:
-  - title: "URL Note"
+  - title: "URL Notes"
     children:
       - title: "- Business URL"
         url: https://bjlim413.github.io/notes/1_business_url_note/
@@ -114,36 +114,36 @@ sidebar-notes:
       - title: "- Cartoon URL"
         url: https://bjlim413.github.io/notes/3_cartoon_url_note/
       - title: "- Study URL"
-        url: https://iregg.github.io/notes/4_study_url_note/
-      - title: "유투브 URL"
-        url: https://iregg.github.io/notes/5_youtube_url_note/
-  - title: "로직 노트"
+        url: https://bjlim413.github.io/notes/4_study_url_note/
+      - title: "- Youtube URL"
+        url: https://bjlim413.github.io/notes/5_youtube_url_note/
+  - title: "Logic Notes"
     children:
-      - title: "업무 로직"
-        url: https://iregg.github.io/notes/6_business_logic_note/
-      - title: "생활 로직"
+      - title: "Business Logic"
+        url: https://bjlim413.github.io/notes/6_business_logic_note/
+      - title: "Life Logic"
         url: https://bjlim413.github.io/notes/7_life_logic_note/
       - title: "금융 로직"
-        url: https://iregg.github.io/news/2024-11-20-news/
+        url: https://bjlim413.github.io/notes/8_financial_logic_note/
       - title: "관계 로직"
-        url: https://iregg.github.io/news/2024-11-21-news/
+        url: https://bjlim413.github.io/notes/9_relations_logic_note/
       - title: "소스 로직"
-        url: https://iregg.github.io/news/2024-11-22-news/
-  - title: "할일 노트"
+        url: https://bjlim413.github.io/notes/10_code_logic_note/
+  - title: "To Do Notes"
     children:
-      - title: "업무 할일"
-        url: https://iregg.github.io/news/2024-11-25-news/
-      - title: "일상 할일"
-        url: https://iregg.github.io/news/2024-11-26-news/
-      - title: "부동산 할일"
-        url: https://iregg.github.io/news/2024-11-27-news/
-      - title: "주식 할일"
-        url: https://iregg.github.io/news/2024-11-28-news/
-      - title: "자동차 할일"
-        url: https://iregg.github.io/news/2024-11-29-news/
-  - title: "해결방법 노트"
+      - title: "Business To Do"
+        url: https://bjlim413.github.io/notes/11_business_todo_note/
+      - title: "Life To Do"
+        url: https://bjlim413.github.io/notes/12_life_todo_note/
+      - title: "Real Estate To Do"
+        url: https://bjlim413.github.io/notes/13_realestate_todo_note/
+      - title: "Stock To Do"
+        url: https://bjlim413.github.io/notes/14_stock_todo_note/
+      - title: "Car To Do"
+        url: https://bjlim413.github.io/notes/15_car_todo_note/
+  - title: "Solving Notes"
     children:
-      - title: "현상/원인/조치방법"
-        url: https://iregg.github.io/news/2024-12-02-news/
-      - title: "일기"
-        url: https://iregg.github.io/news/2024-12-03-news/
+      - title: "phenomenon → cause → solving method"
+        url: https://bjlim413.github.io/notes/16_phenomenon_cause_solvingMethod_note/
+      - title: "Diary"
+        url: https://bjlim413.github.io/notes/17_diary_note/
