@@ -4,6 +4,8 @@ main:
     url: "https://mmistakes.github.io/minimal-mistakes/docs/configuration/#theme"
   - title: "Invite Wedding"
     url: https://invitewedding.p-e.kr/20251129
+  - title : "Notes"
+    url : https://bjlim413.github.io/notes/
   #- title: "Sample Posts"
     #url: https://iregg.github.io/header-image-overlay/
   #- title: "News"
@@ -16,8 +18,6 @@ main:
     #url: /collection-archive/
   #- title: "Sitemap"
     #url: /sitemap/
-  #- title : "Notes"
-    #url : https://iregg.github.io/notes/
   
 # sidebar-sample links
 sidebar-sample:
