@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 만화 URL
+title: Cartoon URL
 excerpt: 3rd Note
 toc: true
 toc_label: "Table of Contents"
