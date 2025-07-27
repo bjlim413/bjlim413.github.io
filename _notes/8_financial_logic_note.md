@@ -4,7 +4,7 @@ title: Financial Logic
 excerpt: 8th Note
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "cash"
+toc_icon: "money"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
