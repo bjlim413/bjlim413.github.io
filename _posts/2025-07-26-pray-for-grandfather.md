@@ -9,7 +9,7 @@ categories:
   - worship
 image: /assets/images/AISelect_20250728_191311_KakaoTalk.jpg
 ---
-
+image: /assets/images/AISelect_20250728_191311_KakaoTalk.jpg
 <br>
 ⛪️ 할아버지를 위한 추도 예배를 시작합니다.
 <br>
