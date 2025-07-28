@@ -141,23 +141,26 @@ analytics:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+    - label: "KakaoTalk"
+      icon: "fas fa-comment"  # 비슷한 아이콘 사용 (말풍선)
+      url: "https://open.kakao.com/o/xxxxx"  # 오픈채팅 링크나 카카오 링크
+    #- label: "Twitter"
+      #icon: "fab fa-fw fa-twitter-square"
+      #url: "https://twitter.com/"
+    #- label: "Facebook"
+      #icon: "fab fa-fw fa-facebook-square"
       # url:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
+    #- label: "GitHub"
+      #icon: "fab fa-fw fa-github"
       # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
+    #- label: "GitLab"
+      #icon: "fab fa-fw fa-gitlab"
       # url:
     - label: "Chrome"
       icon: "fa-brands fa-chrome"
       url: "https://www.google.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+    #- label: "Instagram"
+      #icon: "fab fa-fw fa-instagram"
       # url:
   since: "2025"
 
@@ -196,7 +199,7 @@ exclude:
   - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
-  - .svn
+   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
