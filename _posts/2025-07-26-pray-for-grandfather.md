@@ -7,7 +7,8 @@ toc_label: "추도 예배 순서"
 toc_icon: "church"
 categories:
   - worship
-image: /assets/images/AISelect_20250728_191311_KakaoTalk.jpg
+header:
+  overlay_image: assets/images/20241102_151744.jpg
 ---
 
 <br>
