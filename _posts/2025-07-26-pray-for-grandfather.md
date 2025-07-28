@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 이인영 집사님 1주기 추도 예배
+title: 아버지 1주기 추도 예배
 excerpt: Pray for Grandfather
 toc: false # true
 toc_label: "추도 예배 순서"
@@ -12,7 +12,7 @@ header:
 ---
 
 <br>
-⛪️ 할아버지를 위한 추도 예배를 시작합니다.
+⛪️ 아버지를 위한 추도 예배를 시작합니다.
 <br>
 
 <br><br>
@@ -21,7 +21,7 @@ header:
 죽은 자 가운데서 다시 살아나시며 <br> 하늘에 오르사 전능하신 하나님 우편에 앉아 계시다가<br> 저리로서 산 자와 죽은 자를 심판하러 오시리라 <br> 성령을 믿사오며, 거룩한 공회와 성도가 서로 교통하는 것과 <br> 죄를 사하여 주시는 것과, 몸이 다시 사는 것과 <br> 영원히 사는 것을 믿사옵나이다. 아멘.
 {: .notice--warning}
 
-&emsp;&emsp;<a href="#" class="btn btn--success">Back to top</a>
+<a href="#" class="btn btn--success">Back to top</a>
 <br> 
 
 <br><br>
