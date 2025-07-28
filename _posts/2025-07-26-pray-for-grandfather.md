@@ -1,6 +1,6 @@
 ---
 layout: single
-title: '25년 7월 31일 추도 예배
+title: `25년 7월 31일 추도 예배
 excerpt: Pray for Grandfather
 toc: true
 toc_label: "추도 예배 순서"
