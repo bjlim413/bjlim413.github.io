@@ -20,7 +20,7 @@ header:
 
 # 2. 찬송
 ## [305장] 나 같은 죄인 살리신
-![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="70%" height="50%"}{: .center}
+![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="90%" height="50%"}{: .center}
 
 # 3. 기도
   
