@@ -11,28 +11,17 @@ header:
   overlay_image: assets/images/20241102_151744.jpg
 ---
 
-<br>
 ⛪️ 아버지를 위한 추도 예배를 시작합니다.
-<br>
 
-<br><br>
 # 1. 사도신경
 📖 전능하사 천지를 만드신 <br> 하나님 아버지를 내가 믿사오며 <br> 그 외아들 우리 주 예수 그리스도를 믿사오니 <br> 이는 성령으로 잉태하사 <br> 동정녀 마리아에게 나시고 <br> 본디오 빌라도에게 고난을 받으사 <br> 십자가에 못 박혀 죽으시고 <br> 장사한 지 사흘 만에
 죽은 자 가운데서 다시 살아나시며 <br> 하늘에 오르사 전능하신 하나님 우편에 앉아 계시다가<br> 저리로서 산 자와 죽은 자를 심판하러 오시리라 <br> 성령을 믿사오며, 거룩한 공회와 성도가 서로 교통하는 것과 <br> 죄를 사하여 주시는 것과, 몸이 다시 사는 것과 <br> 영원히 사는 것을 믿사옵나이다. 아멘.
 {: .notice--warning}
 
-<a href="#" class="btn btn--success">Back to top</a>
-<br> 
-
-<br><br>
 # 2. 찬송
 ## [305장] 나 같은 죄인 살리신
-![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="100%" height="50%"}{: .center}
+![hymn1](/assets/images/AISelect_20250728_183408_CAISelect_20250727_00250%" height="50%"}{: .center}
 
-<a href="#" class="btn btn--success">Back to top</a>
-<br> 
-
-<br><br>
 # 3. 기도
   
 🙏 “사랑하는 아버지 하나님, 오늘 이 시간 사랑하는 아버지를 추억하며 예배드릴 수 있도록 인도하심에 감사드립니다.
@@ -41,37 +30,19 @@ header:
 예수님의 이름으로 기도드립니다. 아멘.”
 {: .notice--info}
 
-<a href="#" class="btn btn--success">Back to top</a>
-<br> 
-
-<br><br>
 # 4. 말씀
 ## (시편 119편 101~106절)
-![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="100%" height="50%"}{: .center}
+![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="50%" height="50%"}{: .center}
 
-<a href="#" class="btn btn--success">Back to top</a>
-<br> 
-
-<br><br>
 # 5. 추모
 > “가족들과 서로 아버지에 대한 추억을 나눠 보는 시간을 가져봅시다.”
 
-&emsp;&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
-
-<br><br>
 # 6.어머니의 기도
-<br>
 
-<br><br>
 # 7. 찬송 
 ## [390장] 예수가 거느리시니
-![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="100%" height="50%"}{: .center}
+![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="50%" height="50%"}{: .center}
 
-<a href="#" class="btn btn--success">Back to top</a>
-<br> 
-
-<br><br>
 # 8. 주기도문 
   📖 하늘에 계신 우리 아버지여 <br> 이름이 거룩히 여김을 받으시오며 <br> 나라에 임하옵시며 <br> 뜻이 하늘에서 이룬 것같이 땅에서도 이루어지이다 <br> 오늘날 우리에게 일용힐 양식을 주옵시고 <br> 우리가 우리에게 죄 지은 자를 사하여 준 것같이 <br> 우리 죄를 사하여 주옵시고 <br> 우리를 시험에 들게 하지 마옵시고 <br> 다만 악에서 구하옵소서 <br> 대게 나라와 권세와 영광이 <br> 아버지께 영원히 있사옵나이다 아멘 <br>
 {: .notice}
