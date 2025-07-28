@@ -332,13 +332,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
-      read_time: true
+      #author_profile: true
+      #read_time: true
       comments: # true
       share: true
-      show_date: true
-      date_format: "%Y-%m-%d"
-      read_time: true
+      #show_date: true
+      #date_format: "%Y-%m-%d"
+      #read_time: true
   # _portfolio
   - scope:
       path: ""
