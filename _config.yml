@@ -114,7 +114,7 @@ analytics:
 # Site Author
 #author:
   #name             : "Portfolio"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  #avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   #bio              : "I am **coding** man."
   #location         : "South"
   #email            : "iregg413@gmail.com"
@@ -123,19 +123,19 @@ analytics:
       #icon: "fas fa-fw fa-envelope-square"
       #url: "mailto:jun413@naver.com"
     #- label: "Website"
-      icon: "fas fa-fw fa-link"
+      #icon: "fas fa-fw fa-link"
       #url: "https://iregg.github.io"
     #- label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+      #icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/"
     #- label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
+      #icon: "fab fa-fw fa-facebook-square"
       #url: "https://facebook.com/"
     #- label: "GitHub"
-      icon: "fab fa-fw fa-github"
+      #icon: "fab fa-fw fa-github"
       #url: "https://github.com/"
     #- label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
+      #icon: "fab fa-fw fa-instagram"
       #url: "https://instagram.com/"
 
 # Site Footer
