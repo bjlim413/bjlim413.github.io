@@ -29,7 +29,7 @@ categories:
 <br><br>
 # 2. 찬송
 
-![hymn1](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="100%" height="50%"}{: .center}
+![hymn1](assets/images/AISelect_20250728_183408_Chrome.jpg){: width="100%" height="50%"}{: .center}
 
 ![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="100%" height="50%"}{: .center}
 
