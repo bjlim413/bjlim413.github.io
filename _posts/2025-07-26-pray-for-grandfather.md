@@ -7,6 +7,9 @@ toc_label: "추도 예배 순서"
 toc_icon: "church"
 categories:
   - worship
+header:
+  image: /assets/images/thumb-pray.jpg
+  caption: "2025년 추도 예배"
 ---
 
 <br>
