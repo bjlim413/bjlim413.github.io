@@ -20,7 +20,7 @@ header:
 
 # 2. 찬송
 ## [305장] 나 같은 죄인 살리신
-![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="50%" height="50%"}{: .center}
+![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="70%" height="50%"}{: .center}
 
 # 3. 기도
   
@@ -32,7 +32,7 @@ header:
 
 # 4. 말씀
 ## (시편 119편 101~106절)
-![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="50%" height="50%"}{: .center}
+![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="70%" height="50%"}{: .center}
 
 # 5. 추모
 > “가족들과 서로 아버지에 대한 추억을 나눠 보는 시간을 가져봅시다.”
@@ -41,7 +41,7 @@ header:
 
 # 7. 찬송 
 ## [390장] 예수가 거느리시니
-![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="50%" height="50%"}{: .center}
+![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="70%" height="50%"}{: .center}
 
 # 8. 주기도문 
   📖 하늘에 계신 우리 아버지여 <br> 이름이 거룩히 여김을 받으시오며 <br> 나라에 임하옵시며 <br> 뜻이 하늘에서 이룬 것같이 땅에서도 이루어지이다 <br> 오늘날 우리에게 일용힐 양식을 주옵시고 <br> 우리가 우리에게 죄 지은 자를 사하여 준 것같이 <br> 우리 죄를 사하여 주옵시고 <br> 우리를 시험에 들게 하지 마옵시고 <br> 다만 악에서 구하옵소서 <br> 대게 나라와 권세와 영광이 <br> 아버지께 영원히 있사옵나이다 아멘 <br>
