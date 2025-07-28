@@ -28,13 +28,13 @@ categories:
 
 <br><br>
 # 2. 찬송
-## 305장 나 같은 죄인 살리신
+## [305장] 나 같은 죄인 살리신
 ![hymn1](/assets/images/AISelect_20250728_183408_Chrome.jpg){: width="100%" height="50%"}{: .center}
 
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
 
-## 390장 예수가 거느리시니
+## [390장] 예수가 거느리시니
 ![hymn2](/assets/images/AISelect_20250727_002834_Chrome.jpg){: width="100%" height="50%"}{: .center}
 
 <a href="#" class="btn btn--success">Back to top</a>
