@@ -32,7 +32,7 @@ header:
 
 # 4. 말씀
 ## (시편 119편 101~106절)
-![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="70%" height="50%"}{: .center}
+![Bible1](/assets/images/AISelect_20250728_190354_ .jpg){: width="90%" height="50%"}{: .center}
 
 # 5. 추모
 > “가족들과 서로 아버지에 대한 추억을 나눠 보는 시간을 가져봅시다.”
