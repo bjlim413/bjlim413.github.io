@@ -8,7 +8,7 @@ toc_icon: "church"
 categories:
   - worship
 header:
-  image: /assets/images/thumb-pray.jpg
+  image: /assets/images/AISelect_20250728_191311_KakaoTalk.jpg
   caption: "2025년 추도 예배"
 ---
 
