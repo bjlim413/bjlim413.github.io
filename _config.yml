@@ -143,7 +143,7 @@ footer:
   links:
     - label: "KakaoTalk"
       icon: "fas fa-comment"  # 비슷한 아이콘 사용 (말풍선)
-      url: "https://open.kakao.com/o/xxxxx"  # 오픈채팅 링크나 카카오 링크
+      url: "https://bjlim413.github.io/worship/pray-for-grandfather/" # "https://open.kakao.com/o/xxxxx"  # 오픈채팅 링크나 카카오 링크
     #- label: "Twitter"
       #icon: "fab fa-fw fa-twitter-square"
       #url: "https://twitter.com/"
