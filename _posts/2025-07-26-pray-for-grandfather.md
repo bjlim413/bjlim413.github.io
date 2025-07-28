@@ -54,10 +54,7 @@ header:
 
 <br><br>
 # 5. 추모
-집사님의 신앙, 따듯했던 기억
-{: .notice--danger}
-  
-> “아버지는 평생 가족을 위해 헌신하셨고, 신실한 믿음의 본을 보이셨습니다...”
+> “가족들과 서로 아버지에 대한 추억을 나눠 보는 시간을 가져봅시다.”
 
 &emsp;&emsp;<a href="#" class="btn btn--success">Back to top</a>
 <br>
