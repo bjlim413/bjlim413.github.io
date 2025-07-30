@@ -5,12 +5,12 @@ header:
   image: /assets/images/portfolio/cracking_cafe/20250622_151959.jpg
   teaser: assets/images/portfolio/cracking_cafe/20250622_145625.jpg
 sidebar:
-  - title: "Role"
+  - title: "위치"
     image: http://placehold.it/350x250
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "판교"
+  - title: "메뉴"
+    text: "프렌치 토스트"
 gallery:
   - url: /assets/images/unsplash-gallery-image-1.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
