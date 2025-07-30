@@ -3,16 +3,16 @@ title: "Cracking Cafe View"
 excerpt: "크랙킹 카페 뷰는 주택 정원 같음."
 header:
   image: /assets/images/portfolio/cracking_cafe/20250622_151959.jpg
-  teaser: assets/images/portfolio/cracking_cafe/20250622_145625.jpg
+  teaser: /assets/images/portfolio/cracking_cafe/20250622_145625.jpg
 sidebar:
   - title: "위치"
-    image: assets/images/portfolio/cracking_cafe/20250622_153238.jpg
-    image_alt: "logo"
+    #image: /assets/images/portfolio/cracking_cafe/20250622_153238.jpg
+    #image_alt: "logo"
     text: "판교"
   - title: "메뉴"
     text: "프렌치 토스트"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
+  - url: /assets/images/portfolio/cracking_cafe/20250622_153238.jpg
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
   - url: /assets/images/unsplash-gallery-image-2.jpg
