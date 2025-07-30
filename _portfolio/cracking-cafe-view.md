@@ -6,7 +6,7 @@ header:
   teaser: assets/images/portfolio/cracking_cafe/20250622_145625.jpg
 sidebar:
   - title: "위치"
-    image: http://placehold.it/350x250
+    image: assets/images/portfolio/cracking_cafe/20250622_153238.jpg
     image_alt: "logo"
     text: "판교"
   - title: "메뉴"
