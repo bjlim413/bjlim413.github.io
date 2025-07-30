@@ -1,5 +1,5 @@
 ---
-title: "Cracking Cafe View"
+title: "Cracking Cafe"
 excerpt: "크랙킹 카페 뷰는 주택 정원 같음."
 header:
   image: /assets/images/portfolio/cracking_cafe/20250622_151959.jpg
