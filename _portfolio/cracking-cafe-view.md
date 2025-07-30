@@ -15,8 +15,8 @@ gallery:
   - url: /assets/images/portfolio/cracking_cafe/20250622_153238.jpg
     image_path: /assets/images/portfolio/cracking_cafe/20250622_153238.jpg
     alt: "placeholder image 1"
-  - url: /assets/images/unsplash-gallery-image-2.jpg
-    image_path: assets/images/unsplash-gallery-image-2-th.jpg
+  - url: /assets/images/portfolio/cracking_cafe/20250627_182935.jpg
+    image_path: /assets/images/portfolio/cracking_cafe/20250627_182935.jpg
     alt: "placeholder image 2"
   - url: /assets/images/unsplash-gallery-image-3.jpg
     image_path: assets/images/unsplash-gallery-image-3-th.jpg
