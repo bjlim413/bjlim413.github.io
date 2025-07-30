@@ -3,7 +3,7 @@ title: "Cracking Cafe View"
 excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
 header:
   image: /assets/images/unsplash-gallery-image-1.jpg
-  teaser: assets/images/unsplash-gallery-image-1-th.jpg
+  teaser: assets/images/portfolio/cracking_cafe/20250622_145625.jpg
 sidebar:
   - title: "Role"
     image: http://placehold.it/350x250
