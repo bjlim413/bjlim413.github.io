@@ -1,6 +1,6 @@
 ---
 title: "Cracking Cafe View"
-excerpt: "Baz Boom design system including logo mark, website design, and branding applications."
+excerpt: "크랙킹 카페 뷰는 주택 정원 같음."
 header:
   image: /assets/images/portfolio/cracking_cafe/20250622_151959.jpg
   teaser: assets/images/portfolio/cracking_cafe/20250622_145625.jpg
