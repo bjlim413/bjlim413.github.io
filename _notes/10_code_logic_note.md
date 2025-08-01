@@ -194,3 +194,73 @@ server.listen(3000, () => {
 ```
 
 ---
+
+🧱 기본 구조 요소
+
+1. 변수 선언
+
+let count = 0;
+const name = "홍길동";
+
+2. 조건문 (if, switch)
+
+if (count > 0) {
+  console.log("양수입니다");
+} else {
+  console.log("0 또는 음수입니다");
+}
+
+3. 반복문 (for, while)
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+4. 함수 정의와 호출
+
+function sayHello(name) {
+  console.log("안녕하세요, " + name);
+}
+
+sayHello("철수");
+
+5. 이벤트 기반 로직 (웹에서 자주 사용)
+
+document.getElementById("btn").addEventListener("click", function() {
+  alert("버튼 클릭됨!");
+});
+
+
+---
+
+🔁 예: 간단한 로그인 로직
+
+function login(id, password) {
+  const savedId = "admin";
+  const savedPw = "1234";
+
+  if (id === savedId && password === savedPw) {
+    return "로그인 성공!";
+  } else {
+    return "아이디 또는 비밀번호가 틀렸습니다.";
+  }
+}
+
+console.log(login("admin", "1234"));  // 로그인 성공!
+
+
+---
+
+💡 로직 설계 팁
+
+입력 → 처리 → 출력 구조를 기본으로 생각하세요.
+
+조건 분기를 명확하게 나누는 것이 중요합니다.
+
+비즈니스 로직은 함수로 분리하면 유지보수에 좋습니다.
+
+로직이 복잡해질수록 함수, 객체, 모듈로 나누어야 합니다.
+
+
+
+---
