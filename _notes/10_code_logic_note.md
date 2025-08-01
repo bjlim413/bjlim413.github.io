@@ -171,7 +171,7 @@ import { add } from './module1.js';
 
 console.log(add(3, 4)); // 7
 ```
-> 💡 브라우저에서 ES 모듈을 사용하려면 '<script type="module">' 필요
+> 💡 브라우저에서 ES 모듈을 사용하려면 ```<script type="module">``` 필요
 
 ---
 # ✅ 8. 프론트엔드 vs 백엔드 (Node.js)
@@ -195,46 +195,46 @@ server.listen(3000, () => {
 
 ---
 
-🧱 기본 구조 요소
+# 🧱 기본 구조 요소
 
-1. 변수 선언
-
+## 1. 변수 선언
+```javascript
 let count = 0;
 const name = "홍길동";
-
-2. 조건문 (if, switch)
-
+```
+## 2. 조건문 (if, switch)
+```javascript
 if (count > 0) {
   console.log("양수입니다");
 } else {
   console.log("0 또는 음수입니다");
 }
-
-3. 반복문 (for, while)
-
+```
+## 3. 반복문 (for, while)
+```javascript
 for (let i = 0; i < 5; i++) {
   console.log(i);
 }
-
-4. 함수 정의와 호출
-
+```
+## 4. 함수 정의와 호출
+```javascript
 function sayHello(name) {
   console.log("안녕하세요, " + name);
 }
 
 sayHello("철수");
-
-5. 이벤트 기반 로직 (웹에서 자주 사용)
-
+```
+## 5. 이벤트 기반 로직 (웹에서 자주 사용)
+```javascript
 document.getElementById("btn").addEventListener("click", function() {
   alert("버튼 클릭됨!");
 });
-
+```
 
 ---
 
-🔁 예: 간단한 로그인 로직
-
+# 🔁 예: 간단한 로그인 로직
+```javascript
 function login(id, password) {
   const savedId = "admin";
   const savedPw = "1234";
@@ -247,11 +247,11 @@ function login(id, password) {
 }
 
 console.log(login("admin", "1234"));  // 로그인 성공!
-
+```
 
 ---
 
-💡 로직 설계 팁
+# 💡 로직 설계 팁
 
 입력 → 처리 → 출력 구조를 기본으로 생각하세요.
 
