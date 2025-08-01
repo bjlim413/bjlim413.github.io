@@ -171,7 +171,7 @@ import { add } from './module1.js';
 
 console.log(add(3, 4)); // 7
 ```
-> 💡 브라우저에서 ES 모듈을 사용하려면 <script type="module"> 필요
+> 💡 브라우저에서 ES 모듈을 사용하려면 '<script type="module">' 필요
 
 ---
 # ✅ 8. 프론트엔드 vs 백엔드 (Node.js)
