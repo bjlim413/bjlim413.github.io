@@ -84,13 +84,13 @@ sidebar:
   <!--<h1>청첩장 모임 장소 정하기</h1>-->
   <p>아래 중에서 원하는 장소를 선택하세요:</p>
 
-  <button1 onclick="selectPlace('강남 카페')">강남 카페</button1>
-  <button1 onclick="selectPlace('홍대 레스토랑')">홍대 레스토랑</button1>
-  <button1 onclick="selectPlace('잠실 호텔')">잠실 호텔</button1>
-  <button1 onclick="selectPlace('종로 전통찻집')">종로 전통찻집</button1>
+  <button onclick="selectPlace('강남 카페')">강남 카페</button>
+  <button onclick="selectPlace('홍대 레스토랑')">홍대 레스토랑</button>
+  <button onclick="selectPlace('잠실 호텔')">잠실 호텔</button>
+  <button onclick="selectPlace('종로 전통찻집')">종로 전통찻집</button>
 
   <br><br>
-  <button1 onclick="randomPlace()">무작위 추천</button1>
+  <button onclick="randomPlace()">무작위 추천</button>
 
   <h2 id="result1"></h2>
 
