@@ -93,7 +93,7 @@ sidebar:
   <br><br>
   <button onclick="randomPlace()">무작위 추천</button>
 
-  <h2 id="result1">결과></h2>
+  <h2 id="result1"></h2>
 
   <script>
     function selectPlace(place) {
