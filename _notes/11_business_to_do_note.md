@@ -10,6 +10,8 @@ sidebar:
   nav: sidebar-notes
 ---
 
+---
+# 🧮 간단한 계산기
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -51,3 +53,5 @@ sidebar:
   </script>
 </body>
 </html>
+
+---
