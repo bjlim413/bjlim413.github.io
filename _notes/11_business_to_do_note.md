@@ -11,13 +11,11 @@ sidebar:
 ---
 
 ---
-
 # 🧮 간단한 계산기
-<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>간단한 계산기</title>
+  <!--<title>간단한 계산기</title>-->
 </head>
 <body>
   <h1>계산기</h1>
@@ -59,15 +57,12 @@ sidebar:
 <br> 
 
 ---
-
----
-
 # 🤵👰청첩장 모임 장소 정하기
 <!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <title>청첩장 모임 장소 정하기</title>
+  <!--<title>청첩장 모임 장소 정하기</title>-->
   <style>
     body {
       font-family: sans-serif;
