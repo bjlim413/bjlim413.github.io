@@ -75,7 +75,7 @@ sidebar:
       padding: 10px 20px;
       font-size: 16px;
     }
-    #result {
+    #result1 {
       margin-top: 20px;
       font-weight: bold;
       color: #007bff;
