@@ -109,7 +109,7 @@ sidebar:
     function randomPlace() {
       const places = ['강남 카페', '홍대 레스토랑', '잠실 호텔', '종로 전통찻집'];
       const randomIndex = Math.floor(Math.random() * places.length);
-      document.getElementById('result').innerText = `추천 장소: ${places[randomIndex]}`;
+      document.getElementById('result1').innerText = `추천 장소: ${places[randomIndex]}`;
     }
   </script>
 </body>
