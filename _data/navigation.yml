@@ -134,15 +134,15 @@ sidebar-notes:
   - title: "To Do Notes"
     children:
       - title: "Business To Do"
-        url: https://bjlim413.github.io/notes/11_business_todo_note/
+        url: https://bjlim413.github.io/notes/11_business_to_do_note/
       - title: "Life To Do"
-        url: https://bjlim413.github.io/notes/12_life_todo_note/
+        url: https://bjlim413.github.io/notes/12_life_to_do_note/
       - title: "Real Estate To Do"
-        url: https://bjlim413.github.io/notes/13_realestate_todo_note/
+        url: https://bjlim413.github.io/notes/13_realestate_to_do_note/
       - title: "Stock To Do"
-        url: https://bjlim413.github.io/notes/14_stock_todo_note/
+        url: https://bjlim413.github.io/notes/14_stock_to_do_note/
       - title: "Car To Do"
-        url: https://bjlim413.github.io/notes/15_car_todo_note/
+        url: https://bjlim413.github.io/notes/15_car_to_do_note/
   - title: "Solving Notes"
     children:
       - title: "phenomenon → cause → solving method"
