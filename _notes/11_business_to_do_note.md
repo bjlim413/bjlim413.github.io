@@ -31,7 +31,7 @@ sidebar:
 
   <button onclick="calculate()">계산</button>
 
-  <h2 id="result">결과: </h2>
+  <h3 id="result">결과: </h3>
 
   <script>
     function calculate() {
