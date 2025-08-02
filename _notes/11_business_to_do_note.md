@@ -67,7 +67,7 @@ sidebar:
     h1 {
       color: #333;
     }
-    button1 {
+    button {
       margin: 5px;
       # padding: 10px 20px;
       font-size: 14px;
