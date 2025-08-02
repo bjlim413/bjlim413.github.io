@@ -18,7 +18,6 @@ sidebar:
   <!--<title>간단한 계산기</title>-->
 </head>
 <body>
-
   <input type="number" id="num1" placeholder="숫자 1">
   <select id="operator">
     <option value="+">+</option>
@@ -55,9 +54,8 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
 
-<br><br>
 ---
-# 🤵👰청첩장 모임 장소 정하기
+# 🤵👰청첩장 모임 장소
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
@@ -95,7 +93,7 @@ sidebar:
   <br><br>
   <button onclick="randomPlace()">무작위 추천</button>
 
-  <h2 id="result1"></h2>
+  <h2 id="result1">결과></h2>
 
   <script>
     function selectPlace(place) {
