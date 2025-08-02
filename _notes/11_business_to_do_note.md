@@ -59,7 +59,6 @@ sidebar:
 <html lang="ko">
 <head>
   <meta charset="UTF-8">
-  <!--<title>청첩장 모임 장소 정하기</title>-->
   <style>
     body {
       font-family: sans-serif;
@@ -81,7 +80,6 @@ sidebar:
   </style>
 </head>
 <body>
-  <!--<h1>청첩장 모임 장소 정하기</h1>-->
   <p>아래 중에서 원하는 장소를 선택하세요:</p>
 
   <button onclick="selectPlace('강남 카페')">강남 카페</button>
