@@ -97,11 +97,11 @@ sidebar:
   <br><br>
   <button onclick="randomPlace()">무작위 추천</button>
 
-  <div id="result"></div>
+  <div id="result1"></div>
 
   <script>
     function selectPlace(place) {
-      document.getElementById('result').innerText = `선택된 장소: ${place}`;
+      document.getElementById('result1').innerText = `선택된 장소: ${place}`;
     }
 
     function randomPlace() {
