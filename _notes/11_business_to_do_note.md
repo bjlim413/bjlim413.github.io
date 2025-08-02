@@ -63,15 +63,15 @@ sidebar:
   <style>
     body {
       font-family: sans-serif;
-      padding: 30px;
+      # padding: 30px;
     }
     h1 {
       color: #333;
     }
     button {
       margin: 5px;
-      padding: 10px 20px;
-      font-size: 16px;
+      # padding: 10px 20px;
+      font-size: 12px;
     }
     #result1 {
       margin-top: 20px;
