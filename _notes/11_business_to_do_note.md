@@ -18,7 +18,6 @@ sidebar:
   <!--<title>간단한 계산기</title>-->
 </head>
 <body>
-  <h1>계산기</h1>
 
   <input type="number" id="num1" placeholder="숫자 1">
   <select id="operator">
