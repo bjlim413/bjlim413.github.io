@@ -1,3 +1,15 @@
+---
+layout: single
+title: Life To Do
+excerpt: 12th Note
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "comment"
+sidebar:
+  title: "More Notes"
+  nav: sidebar-notes
+---
+
 <!DOCTYPE html>
 <html lang="ko">
 <head>
