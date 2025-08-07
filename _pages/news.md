@@ -6,3 +6,10 @@ collection: news
 entries_layout: grid
 classes: wide
 ---
+
+- 2025년
+  - 1월
+    2월
+    3월
+- 2024년
+- 2023년
