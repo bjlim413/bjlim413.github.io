@@ -33,13 +33,24 @@ classes: wide
 <br><br>
 # 2024년
 ---
-<a href="https://bjlim413.github.io/news/2024/2024-11-15-news/" class="btn btn--success">2024-01</a>
-<br>
-<br>
+<a href="#" class="btn btn--success">2024-01</a>
 <a href="#" class="btn btn--success">2024-02</a>
+<a href="#" class="btn btn--success">2024-03</a>
 <br>
 <br>
-<a href="#" class="btn btn--success">2024년 3월</a>
+<a href="#" class="btn btn--success">2024-04</a>
+<a href="#" class="btn btn--success">2024-05</a>
+<a href="#" class="btn btn--success">2024-06</a>
+<br>
+<br>
+<a href="#" class="btn btn--success">2024-07</a>
+<a href="#" class="btn btn--success">2024-08</a>
+<a href="#" class="btn btn--success">2024-09</a>
+<br>
+<br>
+<a href="#" class="btn btn--success">2024-10</a>
+<a href="#" class="btn btn--success">2024-11</a>
+<a href="#" class="btn btn--success">2024-12</a>
 <br>
 
 <br><br>
