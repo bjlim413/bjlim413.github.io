@@ -21,7 +21,7 @@ classes: wide
 <br>
 <br>
 <a href="#" class="btn btn--success">2025-07</a>&emsp;
-<a href="https://bjlim413.github.io/news/2025/2025-08/2025-08-news/" class="btn btn--success">2025-08</a>&emsp;
+<a href="https://bjlim413.github.io/news/2025/2025-08/2025-08-00-news/" class="btn btn--success">2025-08</a>&emsp;
 <a href="#" class="btn btn--success">2025-09</a>&emsp;
 <br>
 <br>
