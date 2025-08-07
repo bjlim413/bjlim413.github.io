@@ -28,7 +28,7 @@ classes: wide
 <br><br>
 # 2024년
 ---
-<a href="#" class="btn btn--success">2024년 1월</a>
+<a href="https://bjlim413.github.io/news/2024/2024-11-15-news/" class="btn btn--success">2024년 1월</a>
 <br>
 <br>
 <a href="#" class="btn btn--success">2024년 2월</a>
