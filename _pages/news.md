@@ -10,33 +10,33 @@ classes: wide
 <br><br>
 # 2025
 ---
-<a href="#" class="btn btn--success">2025년 1월</a>
-<a href="#" class="btn btn--success">2025년 2월</a>
-<a href="#" class="btn btn--success">2025년 3월</a>
+<a href="#" class="btn btn--success">2025-01</a>
+<a href="#" class="btn btn--success">2025-02</a>
+<a href="#" class="btn btn--success">2025-03</a>
 <br>
 <br>
-<a href="#" class="btn btn--success">2025년 4월</a>
-<a href="#" class="btn btn--success">2025년 5월</a>
-<a href="#" class="btn btn--success">2025년 6월</a>
+<a href="#" class="btn btn--success">2025-04</a>
+<a href="#" class="btn btn--success">2025-05</a>
+<a href="#" class="btn btn--success">2025-06</a>
 <br>
 <br>
-<a href="#" class="btn btn--success">2025년 7월</a>
-<a href="#" class="btn btn--success">2025년 8월</a>
-<a href="#" class="btn btn--success">2025년 9월</a>
+<a href="#" class="btn btn--success">2025-07</a>
+<a href="#" class="btn btn--success">2025-08</a>
+<a href="#" class="btn btn--success">2025-09</a>
 <br>
 <br>
-<a href="#" class="btn btn--success">2025년 10월</a>
-<a href="#" class="btn btn--success">2025년 11월</a>
-<a href="#" class="btn btn--success">2025년 12월</a>
+<a href="#" class="btn btn--success">2025-10</a>
+<a href="#" class="btn btn--success">2025-11</a>
+<a href="#" class="btn btn--success">2025-12</a>
 <br>
 
 <br><br>
 # 2024년
 ---
-<a href="https://bjlim413.github.io/news/2024/2024-11-15-news/" class="btn btn--success">2024년 1월</a>
+<a href="https://bjlim413.github.io/news/2024/2024-11-15-news/" class="btn btn--success">2024-01</a>
 <br>
 <br>
-<a href="#" class="btn btn--success">2024년 2월</a>
+<a href="#" class="btn btn--success">2024-02</a>
 <br>
 <br>
 <a href="#" class="btn btn--success">2024년 3월</a>
