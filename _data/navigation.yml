@@ -10,8 +10,8 @@ main:
     url : https://bjlim413.github.io/portfolio/
   #- title: "Sample Posts"
     #url: https://iregg.github.io/header-image-overlay/
-  #- title: "News"
-    #url: https://iregg.github.io/news/
+  - title: "News"
+    url: https://bjlim413.github.io/news/
   #- title: "Video"
     #url: https://iregg.github.io/post%20formats/video-play/
   #- title: "Categories"
