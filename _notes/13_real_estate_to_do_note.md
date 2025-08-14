@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Real Estate To Do
-excerpt: 12th Note
+excerpt: 13th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "house"
