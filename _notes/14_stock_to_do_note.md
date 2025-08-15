@@ -4,7 +4,7 @@ title: Stock To Do
 excerpt: 14th Note
 toc: true
 toc_label: "Table of Contents"
-toc_icon: "stock"
+toc_icon: "graph"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
