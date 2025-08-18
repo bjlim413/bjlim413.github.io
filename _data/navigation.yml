@@ -176,7 +176,10 @@ news-2025-08:
         url: https://bjlim413.github.io/news/2025/2025-08/2025-08-15-news/
       - title: "2025-08-16(토)"
         url: https://bjlim413.github.io/news/2025/2025-08/2025-08-16-news/
-
+  - title: "4th week"
+    children:      
+      - title: "2025-08-18(월)"
+        url: https://bjlim413.github.io/news/2025/2025-08/2025-08-18-news/
 
 
 
