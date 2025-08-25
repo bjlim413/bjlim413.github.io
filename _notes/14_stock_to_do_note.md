@@ -10,68 +10,38 @@ sidebar:
   nav: sidebar-notes
 ---
 
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <title>배당 합계 자동 계산기</title>
-</head>
-<body>
-  <h2>Cony 배당금 합계 계산기</h2>
-  <div id="result">계산 중...</div>
+<script>
+// 1. 크롤링할 페이지 URL
+const targetUrl = "https://bjlim413.github.io/notes/14_stock_to_do_note/";
 
-  <script>
-    const targetUrl = "https://bjlim413.github.io/notes/14_stock_to_do_note/";
+// 2. 오늘 환율 (예: 1달러 = 1387.75원)
+const exchangeRate = 1387.75;
 
-    // 1. 환율 API (exchangerate.host는 무료)
-    const exchangeApi = "https://api.exchangerate.host/latest?base=USD&symbols=KRW";
+// 3. 페이지에서 데이터 가져오기
+fetch(targetUrl)
+  .then(res => res.text())
+  .then(html => {
+    // HTML 파싱
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
 
-    // 2. 환율 먼저 가져오기
-    fetch(exchangeApi)
-      .then(res => res.json())
-      .then(rateData => {
-        const exchangeRate = rateData.rates.KRW;  // 오늘의 USD→KRW 환율
+    // '배당' 뒤에 붙은 숫자만 추출
+    const textContent = doc.body.innerText;
+    const regex = /배당\s*\$?([\d,.]+)/g;
+    let match;
+    let total = 0;
 
-        // 3. 배당 페이지 데이터 가져오기
-        fetch(targetUrl)
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            const textContent = doc.body.innerText;
+    while ((match = regex.exec(textContent)) !== null) {
+      const value = parseFloat(match[1].replace(/,/g, ""));
+      total += value;
+    }
 
-            // 4. "배당 $금액"만 추출
-            const regex = /배당\s*\$?([\d,.]+)/g;
-            let match;
-            let total = 0;
-
-            while ((match = regex.exec(textContent)) !== null) {
-              const value = parseFloat(match[1].replace(/,/g, ""));
-              total += value;
-            }
-
-            // 5. 환율 적용 결과 계산
-            const totalKRW = total * exchangeRate;
-
-            // 6. 화면 출력
-            document.getElementById("result").innerHTML = `
-              <p>총 배당금 (USD): <b>$${total.toFixed(2)}</b></p>
-              <p>오늘 환율 (${exchangeRate.toFixed(2)}원) 적용: 
-                 <b>₩${totalKRW.toLocaleString()}</b></p>
-            `;
-          })
-          .catch(err => {
-            document.getElementById("result").innerText = "배당 데이터를 불러올 수 없습니다.";
-            console.error(err);
-          });
-      })
-      .catch(err => {
-        document.getElementById("result").innerText = "환율 데이터를 불러올 수 없습니다.";
-        console.error(err);
-      });
-  </script>
-</body>
-</html>
+    // 결과 출력
+    console.log(`총 배당금 (USD): $${total.toFixed(2)}`);
+    console.log(`오늘 환율(${exchangeRate}원) 적용 시: ₩${(total * exchangeRate).toLocaleString()}`);
+  })
+  .catch(err => console.error("데이터를 가져올 수 없습니다:", err));
+</script>
 
 ## 2025-08
 
