@@ -10,41 +10,13 @@ sidebar:
   nav: sidebar-notes
 ---
 
-<script>
-// 1. 크롤링할 페이지 URL
-const targetUrl = "https://bjlim413.github.io/notes/14_stock_to_do_note/";
-
-// 2. 오늘 환율 (예: 1달러 = 1387.75원)
-const exchangeRate = 1387.75;
-
-// 3. 페이지에서 데이터 가져오기
-fetch(targetUrl)
-  .then(res => res.text())
-  .then(html => {
-    // HTML 파싱
-    const parser = new DOMParser();
-    const doc = parser.parseFromString(html, "text/html");
-
-    // '배당' 뒤에 붙은 숫자만 추출
-    const textContent = doc.body.innerText;
-    const regex = /배당\s*\$?([\d,.]+)/g;
-    let match;
-    let total = 0;
-
-    while ((match = regex.exec(textContent)) !== null) {
-      const value = parseFloat(match[1].replace(/,/g, ""));
-      total += value;
-    }
-
-    // 결과 출력
-    console.log(`총 배당금 (USD): $${total.toFixed(2)}`);
-    console.log(`오늘 환율(${exchangeRate}원) 적용 시: ₩${(total * exchangeRate).toLocaleString()}`);
-  })
-  .catch(err => console.error("데이터를 가져올 수 없습니다:", err));
-</script>
-
 ## 2025-08
 
+### 8월 28일(목)
+- Cony ETF
+- 619주
+- 6,045,125원
+  
 ### 8월 25일(월) 배당 $166.28
 - Cony ETF
 - 619주
