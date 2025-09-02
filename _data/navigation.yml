@@ -195,6 +195,20 @@ news-2025-08:
       - title: "2025-08-28(목)"
         url: https://bjlim413.github.io/news/2025/2025-08/2025-08-28-news/
       
+# news-2025-09 links
+news-2025-09:
+  - title: "1st week"
+    children:
+      - title: "2025-09-01(월)"
+        url: https://bjlim413.github.io/news/2025/2025-09/2025-09-01-news/
+      - title: "2025-09-02(화)"
+        url: https://bjlim413.github.io/news/2025/2025-09/2025-09-02-news/
+  - title: "2nd week"
+    children:
+      - title: "2025-09-08(월)"
+        url: https://bjlim413.github.io/news/2025/2025-09/2025-09-08-news/
+      - title: "2025-09-09(화)"
+        url: https://bjlim413.github.io/news/2025/2025-09/2025-09-09-news/
 
 
 
