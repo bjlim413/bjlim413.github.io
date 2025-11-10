@@ -36,6 +36,13 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
+# ✅ 4. 정기적인 세차  
+🧠 개념
+- 특히 겨울철에는 염분으로 인한 하부 부식을 막기 위해 하부 세차가 중요
+
+<a href="#" class="btn btn--success">Back to top</a>
+
+---
 # 🧱 정기 점검 및 소모품 교체
 
 ## 1. 엔진 오일
