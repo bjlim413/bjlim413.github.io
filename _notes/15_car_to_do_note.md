@@ -125,3 +125,9 @@ sidebar:
 - 제한 속도를 지키기
 
 <a href="#" class="btn btn--success">Back to top</a>
+
+## 2-1. 예열 
+🧠 개념
+- 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
+
+<a href="#" class="btn btn--success">Back to top</a>
