@@ -19,6 +19,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
+---
 # ✅ 2. 예열 
 🧠 개념
 - 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
@@ -26,7 +27,15 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
+# ✅ 3. 연료량 유지  
+🧠 개념
+- 연료 탱크에 연료를 1/3 이상 유지
 
+- 연료 펌프의 냉각 및 수분 유입 방지에 도움
+
+<a href="#" class="btn btn--success">Back to top</a>
+
+---
 # 🧱 정기 점검 및 소모품 교체
 
 ## 1. 엔진 오일
