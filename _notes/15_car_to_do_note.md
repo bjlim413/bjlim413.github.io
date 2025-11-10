@@ -150,19 +150,11 @@ sidebar:
 ---
 
 # 🔁 예: 간단한 로그인 로직
-```javascript
-function login(id, password) {
-  const savedId = "admin";
-  const savedPw = "1234";
-
-  if (id === savedId && password === savedPw) {
-    return "로그인 성공!";
-  } else {
-    return "아이디 또는 비밀번호가 틀렸습니다.";
-  }
-}
-
-console.log(login("admin", "1234"));  // 로그인 성공!
+```sql
+차종: 투싼
+가격: 31,400,000원
+- 차량
+- 취득세
 ```
 
 ---
