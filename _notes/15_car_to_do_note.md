@@ -116,11 +116,12 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
-# ✅ 2. 비동기 처리 (async/await, Promise)
+# ✅ 2. 올바른 운전 습관
 
-## 2. 타이어
-```
-주기적으로 공기압을 확인하고, 마모 상태를 점검해야 합니다.
-겨울철에는 기온이 낮아 공기압이 자연스럽게 낮아지므로,
-적정 공기압을 유지하는 것이 더 중요합니다. 
-```
+## 2-1. 안전 운전
+🧠 개념
+- 가속, 급제동, 과속은 삼가
+
+- 제한 속도를 지키기
+
+<a href="#" class="btn btn--success">Back to top</a>
