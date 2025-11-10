@@ -11,9 +11,25 @@ sidebar:
 ---
 
 ---
-# ✅ 1. 정기 점검 및 소모품 교체
+# ✅ 1. 안전 운전
+🧠 개념
+- 가속, 급제동, 과속은 삼가
 
-## 1-1. 엔진 오일
+- 제한 속도를 지키기
+
+<a href="#" class="btn btn--success">Back to top</a>
+
+# ✅ 2. 예열 
+🧠 개념
+- 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
+
+<a href="#" class="btn btn--success">Back to top</a>
+
+---
+
+# 🧱 정기 점검 및 소모품 교체
+
+## 1. 엔진 오일
 🧠 개념
 - 보통 3,000km 또는 5,000km 마다 교체
 
@@ -32,7 +48,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
-## 1-2. 타이어
+## 2. 타이어
 🧠 개념
 - 주기적으로 공기압 확인
 
@@ -60,7 +76,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
-## 1-3. 냉각수
+## 3. 냉각수
 🧠 개념
 - 열이 발생하는 시스템의 온도를 낮추기 위해 순환하는 액체
 
@@ -76,7 +92,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
-## 1-4. 와이퍼
+## 4. 와이퍼
 🧠 개념
 - 빗길이나 눈길에서 시야 확보를 위해 와이퍼 상태를 점검
 
@@ -89,7 +105,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
-## 1-5. 워셔액
+## 5. 워셔액
 🧠 개념
 - 워셔액을 보충
 
@@ -102,7 +118,7 @@ sidebar:
 
 <a href="#" class="btn btn--success">Back to top</a>
 
-## 1-6. 라이트
+## 6. 라이트
 🧠 개념
 - 라이트와 지시등이 제대로 작동하는지 정기적으로 확인
 
@@ -116,18 +132,21 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
-# ✅ 2. 올바른 운전 습관
 
-## 2-1. 안전 운전
-🧠 개념
-- 가속, 급제동, 과속은 삼가
+# 🔁 예: 간단한 로그인 로직
+```javascript
+function login(id, password) {
+  const savedId = "admin";
+  const savedPw = "1234";
 
-- 제한 속도를 지키기
+  if (id === savedId && password === savedPw) {
+    return "로그인 성공!";
+  } else {
+    return "아이디 또는 비밀번호가 틀렸습니다.";
+  }
+}
 
-<a href="#" class="btn btn--success">Back to top</a>
+console.log(login("admin", "1234"));  // 로그인 성공!
+```
 
-## 2-1. 예열 
-🧠 개념
-- 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
-
-<a href="#" class="btn btn--success">Back to top</a>
+---
