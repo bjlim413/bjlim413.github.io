@@ -14,11 +14,12 @@ sidebar:
 # 1. 브라우저
 ## 1.1. 엣지
 ### - IE모드 
-```sql
+```
 현상: 엣지에서 IE모드 아이콘이 안보임
 원인: IE 서비스 종료로 인한 IE모드 아이콘 사라짐
 조치: Microsoft 그룹 정책 설정
 ```
+
 ⏰️ TIP <br>
 1. win + R <br>
 2. gpedit.msc 실행 <br>
@@ -27,6 +28,7 @@ sidebar:
 &ensp;- Internet Explorer 모드 선택 <br>
 &ensp;- 적용 > 확인 
 {: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
