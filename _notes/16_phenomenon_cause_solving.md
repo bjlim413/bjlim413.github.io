@@ -20,12 +20,11 @@ sidebar:
 조치: Microsoft 그룹 정책 설정
 ```
 
-⏰️ TIP <br> 1. win + R <br> 
-2. gpedit.msc <br> 
-3. 그룹정책 <br>
+⏰️ TIP <br> 1. win + R <br> 2. gpedit.msc <br> 3. 그룹정책 <br>
 &ensp;- 관리템플릿 <br>
 &ensp;- Internet Explorer 모드 통합구성 <br>
-&ensp;- 사용 > Internet Explorer 선택 > 적용 > 확인 
+&ensp;- 사용 <br>
+&ensp;- Internet Explorer 선택
 {: .notice}
 
 <a href="#" class="btn btn--success">Back to top</a>
