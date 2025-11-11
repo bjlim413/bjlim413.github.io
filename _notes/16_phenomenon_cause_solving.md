@@ -20,7 +20,7 @@ sidebar:
 조치: Microsoft 그룹 정책 설정
 ```
 
-⏰️ TIP <br>
+⏰️ TIP
 1. win + R <br>
 2. gpedit.msc 실행 <br>
 3. 그룹정책 > 관리템플릿 > Internet Explorer 모드 통합구성 <br>
