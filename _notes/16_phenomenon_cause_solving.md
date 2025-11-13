@@ -38,6 +38,15 @@ sidebar:
 &ensp;- 플랫폼 선택 : Windows 64-bit
 {: .notice}
 
+#### 3) MicrosoftEdgePolicyTemplates 압축풀기
+![MicrosoftEdgePolicyTemplates](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_235036.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> Mircosoft Edge 정책 파일 다운로드 <br>
+&ensp;- 채널/버전 선택 : Stable 142 <br>
+&ensp;- 빌드 선택 : 142.0.3595.69 <br>
+&ensp;- 플랫폼 선택 : Windows 64-bit
+{: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
