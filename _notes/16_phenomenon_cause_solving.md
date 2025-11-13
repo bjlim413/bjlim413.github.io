@@ -19,8 +19,7 @@ sidebar:
 원인: IE 서비스 종료로 인한 IE모드 아이콘 사라짐
 조치: Microsoft 그룹 정책 설정
 ```
-
-https://www.microsoft.com/ko-kr/edge/business/download?form=MA13FJ
+[Microsoft Edge 정책 파일 다운로드](https://www.microsoft.com/ko-kr/edge/business/download?form=MA13FJ)
 
 ⏰️ TIP <br> 1. win + R <br> 2. gpedit.msc <br> 3. 그룹정책 <br>
 &ensp;- 관리템플릿 <br>
