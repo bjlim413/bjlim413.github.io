@@ -17,25 +17,25 @@ sidebar:
 ```
 현상: 엣지에서 IE모드 아이콘이 안보임
 원인: IE 서비스 종료로 인한 IE모드 아이콘 사라짐
-조치: 그룹 정책 편집기에서 Microsoft Edge > Internet Explorer 모드 통합구성 
+조치: 그룹 정책 편집기에서 Internet Explorer 설정
 ```
-[Microsoft Edge 정책 파일 다운로드](https://www.microsoft.com/ko-kr/edge/business/download?form=MA13FJ)
 
 #### 1) Edge 설정
 ![Edge_Setting](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_230218.png){: width="100%" height="50%"}{: .center}
 
-⏰️ TIP <br> Microsoft Edge 정보에서 버전 확인
+⏰️ TIP <br> Microsoft Edge 정보에서 버전 확인 <br>
 &ensp;- 버전 142.0.3595.69 (공식 빌드) (64비트)
 {: .notice}
 
 #### 2) 정책 파일 다운로드
 ![Policy_File_Download](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_232838.png){: width="100%" height="50%"}{: .center}
 
-⏰️ TIP <br> 1. win + R <br> 2. gpedit.msc <br> 3. 그룹정책 <br>
-&ensp;- 관리템플릿 <br>
-&ensp;- Internet Explorer 모드 통합구성 <br>
-&ensp;- 사용 <br>
-&ensp;- Internet Explorer 선택
+[Microsoft Edge 정책 파일 다운로드](https://www.microsoft.com/ko-kr/edge/business/download?form=MA13FJ)
+
+⏰️ TIP <br> Mircosoft Edge 정책 파일 다운로드 <br>
+&ensp;- 채널/버전 선택 : Stable 142 <br>
+&ensp;- 빌드 선택 : 142.0.3595.69 <br>
+&ensp;- 플랫폼 선택 : Windows 64-bit
 {: .notice}
 
 <a href="#" class="btn btn--success">Back to top</a>
