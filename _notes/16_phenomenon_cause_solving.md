@@ -87,6 +87,36 @@ sidebar:
 &ensp;- 사용 선택 > 옵션 : Internet Explorer 모드 > 적용 > 확인
 {: .notice}
 
+#### 6) IE 모드 허용
+![IE 모드 허용](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_004911.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> Edge 설정 <br>
+&ensp;- 기본 브라우저 <br>
+&ensp;- Internet Explorer 모드(IE 모드)에서 사이트를 다시 로드하도록 허용 <br>
+&ensp;- 다시 시작
+{: .notice}
+
+#### 7) IE 모드 실행
+![IE 모드 활성화](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_005510.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> Edge 설정 <br>
+&ensp;- 경로 : 브라우저 디스플레이 > 도구모음 <br>
+&ensp;- Internet Explorer 모드(IE 모드) ON
+{: .notice}
+
+![IE 모드 아이콘 클릭](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_005930.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> IE 모드 아이콘 클릭 <br>
+&ensp;- Internet Explorer 모드에서 탭 다시 로드 
+{: .notice}
+
+![IE 모드 실행](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_010052.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> IE 모드 실행 <br>
+&ensp;- 호환성 보기에서 이 페이지 열기 ON <br>
+&ensp;- Internet Explorer 모드에서 이 페이지를 다음 번에 열기 ON
+{: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
