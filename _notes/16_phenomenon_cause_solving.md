@@ -48,6 +48,23 @@ sidebar:
 &ensp;- 파일2 : msedge.adml
 {: .notice}
 
+#### 4) C드라이브 PolicyDefinitions에 파일 붙여넣기
+![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_000351.png){: width="100%" height="50%"}{: .center}
+![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_000838.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> 파일 붙여넣기 <br>
+&ensp;- 경로1 : C:\Windows\PolicyDefinitions <br>
+&ensp;- 파일1 : msedge.admx 
+{: .notice}
+
+![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_001508.png){: width="100%" height="50%"}{: .center}
+![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_001520.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> 파일 붙여넣기 <br>
+&ensp;- 경로2 : C:\Windows\PolicyDefinitions\ko-KR <br>
+&ensp;- 파일2 : msedge.adml
+{: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
