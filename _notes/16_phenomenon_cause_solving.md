@@ -67,6 +67,19 @@ sidebar:
 &ensp;- 파일2 : msedge.adml
 {: .notice}
 
+#### 5) 로컬 그룹 정책 편집기
+![gpedit.msc](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_002252.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> win + R <br>
+&ensp;- 실행 : gpedit.msc
+{: .notice}
+
+![관리 템플릿](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_002615.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> 로컬 그룹 정책 편집기 <br>
+&ensp;- 경로 : 컴퓨터 구성 > 관리 템플릿 > Microsoft Edge 
+{: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
