@@ -24,6 +24,10 @@ sidebar:
 #### 1) Edge 설정
 ![Edge_Setting](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_230218.png){: width="100%" height="50%"}{: .center}
 
+⏰️ TIP <br> Microsoft Edge 정보에서 버전 확인
+&ensp;- 버전 142.0.3595.69 (공식 빌드) (64비트)
+{: .notice}
+
 #### 2) 정책 파일 다운로드
 ![Policy_File_Download](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_232838.png){: width="100%" height="50%"}{: .center}
 
