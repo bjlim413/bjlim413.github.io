@@ -80,6 +80,13 @@ sidebar:
 &ensp;- 경로 : 컴퓨터 구성 > 관리 템플릿 > Microsoft Edge 
 {: .notice}
 
+![Internet Explorer 모드](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_003432.png){: width="100%" height="50%"}{: .center}
+
+⏰️ TIP <br> Internet Explorer 통합 구성 <br>
+&ensp;- 경로 : Microsoft Edge > Internet Explorer 통합 구성 <br>
+&ensp;- 사용 선택 > 옵션 : Internet Explorer 모드 > 적용 > 확인
+{: .notice}
+
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
 
