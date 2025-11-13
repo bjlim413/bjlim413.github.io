@@ -21,6 +21,8 @@ sidebar:
 ```
 [Microsoft Edge 정책 파일 다운로드](https://www.microsoft.com/ko-kr/edge/business/download?form=MA13FJ)
 
+![Edge_Setting](/assets/images/notes/16_phenomenon_cause_solving/2025-11-13_230218.png){: width="100%" height="50%"}{: .center}
+
 ⏰️ TIP <br> 1. win + R <br> 2. gpedit.msc <br> 3. 그룹정책 <br>
 &ensp;- 관리템플릿 <br>
 &ensp;- Internet Explorer 모드 통합구성 <br>
