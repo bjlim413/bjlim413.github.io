@@ -50,6 +50,7 @@ sidebar:
 
 #### 4) C드라이브 PolicyDefinitions에 파일 붙여넣기
 ![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_000351.png){: width="100%" height="50%"}{: .center}
+
 ![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_000838.png){: width="100%" height="50%"}{: .center}
 
 ⏰️ TIP <br> 파일 붙여넣기 <br>
@@ -58,6 +59,7 @@ sidebar:
 {: .notice}
 
 ![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_001508.png){: width="100%" height="50%"}{: .center}
+
 ![PolicyDefinitions](/assets/images/notes/16_phenomenon_cause_solving/2025-11-14_001520.png){: width="100%" height="50%"}{: .center}
 
 ⏰️ TIP <br> 파일 붙여넣기 <br>
