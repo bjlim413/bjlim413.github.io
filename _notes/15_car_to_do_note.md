@@ -17,6 +17,11 @@ sidebar:
 
 - 제한 속도를 지키기
 
+🧪 안전운전 점수
+```
+2025.11.15(토) 74점
+```
+
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
