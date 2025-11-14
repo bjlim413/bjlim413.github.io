@@ -34,6 +34,7 @@ sidebar:
 2025.11.14(금) 예열 1회
 2025.11.15(토) 예열 1회
 ```
+
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
@@ -42,6 +43,11 @@ sidebar:
 - 연료 탱크에 연료를 1/3 이상 유지
 
 - 연료 펌프의 냉각 및 수분 유입 방지에 도움
+
+🧪 주유 내역
+```
+2025.11.14(금) 60,000원 35.4L (1,695원/L) 
+```
 
 <a href="#" class="btn btn--success">Back to top</a>
 
