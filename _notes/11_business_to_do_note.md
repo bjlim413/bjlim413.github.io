@@ -345,3 +345,44 @@ sidebar:
 ### 21) John the Ripper
 - 대표적인 패스워드 크랙도구이다
 
+### 22) 포트스캐닝 중 다중취약점 점검도구
+- SAINT
+- SSCAN2K
+- VETESACAN
+- MSCAN
+
+### 23) 은닉스캔도구
+- NMAP
+- stealthscan
+
+### 24) 네트워크 구조스캔
+- firewalk
+- nmap
+
+### 25) half-open scanning
+- SYN scanning
+
+### 26) Stealth scanning
+- FIN
+- X-MAS
+- NULL Scanning
+
+### 27) nmap 스캔타입과 옵션
+- 반드시 숙지 및 실습하도록 한다
+
+### 28) nmap -p 1-30, 65535 203.x.x.x 
+- 203.x.x.x ip주소의 포트 1-30번
+- 65535번 포트를 스캔한다
+
+### 29) 키로그 프로그램
+- keycopy
+- keylogwin
+- keylog25
+- winhawk
+- perfectkeylog
+
+### 30) UDP 포트스캐닝
+- UDP 포트가 열려 있으면 아무런 응답이 없음
+- 열려 있지 않으면 UDP패킷이 도달하지 못하였다는 메시지가 다시 리턴되어 온다
+
+<a href="#" class="btn btn--success">Back to top</a>
