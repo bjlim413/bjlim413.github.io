@@ -130,7 +130,7 @@ sidebar:
 
 🧪 공기압 충전 내역
 ```
-2026.06.27(토) 뒷바퀴 2개
+2026.06.27(토) 뒷바퀴 2개 공기압 충전 예정 
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
@@ -143,7 +143,7 @@ sidebar:
 
 🧪 냉각수 교체 내역
 ```
-2026.06.27(토) 냉각수 교체, 부동액 혼합 
+2026.06.27(토) 냉각수 교체 예정(부동액 혼합) 
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
@@ -154,7 +154,7 @@ sidebar:
 
 🧪 와이퍼 블레이드 교체 내역
 ```
-2026.06.27(토) 블레이드 교체
+2026.06.27(토) 블레이드 교체 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
@@ -165,7 +165,7 @@ sidebar:
 
 🧪 워셔액 보충 내역
 ```
-2026.06.27(토) 워셔액 보충 
+2026.06.27(토) 워셔액 보충 예정정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
@@ -187,7 +187,7 @@ sidebar:
 
 🧪 에어필터 교체 내역
 ```
-2026.06.27(토) 교체 
+2026.06.27(토) 에어필터 교체 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
