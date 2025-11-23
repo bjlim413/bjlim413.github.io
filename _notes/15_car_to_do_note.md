@@ -208,7 +208,7 @@ sidebar:
 ```
 
 - 2025.11.23(일)
-![투싼기스1](/assets/images/notes/15_car_to_do/20251123_투싼_기스.jpg){: width="10%" height="10%"}{: .center}
+![투싼기스1](/assets/images/notes/15_car_to_do/20251123_투싼_기스.jpg){: width="50%" height="50%"}{: .center}
 
 <a href="#" class="btn btn--success">Back to top</a>
 
