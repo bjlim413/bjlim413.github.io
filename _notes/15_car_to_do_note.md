@@ -206,6 +206,9 @@ sidebar:
 2025.11.24(월) 빠데 → 컴파운드 → 도색 예정
 ```
 
+- 2025.11.25
+![투싼기스1](/assets/images/notes/15_car_to_do/20251123_투싼_기스.jpg){: width="100%" height="50%"}{: .center}
+
 <a href="#" class="btn btn--success">Back to top</a>
 
 ---
