@@ -410,4 +410,5 @@ sidebar:
 ### 2) etc/passwd 구조
 - root : x : 0 : 0 : root : /bin/bash
 
-### 3) 
+### 3) .bashrc
+- 시스템 전체에 적용되는 함수와 alias
