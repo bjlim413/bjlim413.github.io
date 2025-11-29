@@ -17,6 +17,21 @@ sidebar:
 - 920주
 - 6,427,592원
 
+### 11월 14일(금) 배당 $64.99
+- Cony ETF
+
+### 11월 7일(금) 배당 $65.52
+- Cony ETF
+
+<br>
+<a href="#" class="btn btn--success">Back to top</a>
+<br> 
+
+## 2025-10
+
+### 10월 31일(금) 배당 $93.64
+- Cony ETF 
+
 <br>
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
