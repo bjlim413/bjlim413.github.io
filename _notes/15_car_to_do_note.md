@@ -53,6 +53,7 @@ sidebar:
     </tr>
   </thead>
   <tbody>
+    <tr data-date="2025-12"><td>2025.12.20(토)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.19(금)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.15(월)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.14(일)</td><td>1</td></tr>
@@ -144,7 +145,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 총 예열 횟수 (년/월)
 ```
-2025년 12월 총 예열 횟수: 6회
+2025년 12월 총 예열 횟수: 7회
 2025년 11월 총 예열 횟수: 20회
 ```
 
