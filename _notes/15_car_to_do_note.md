@@ -328,6 +328,22 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 <a href="#" class="btn btn--success">Back to top</a>
 
+## 9. 디퓨저 
+🧠 개념
+- 차안에 향기가 제대로 퍼질 수 있도록 유지관리
+
+🧪 디퓨저 오일 충전 내역
+```
+2025.12.27(토) 오일 충전 예정
+```
+
+🧪 디퓨저 필터 교체 내역
+```
+2026.03.07(토) 필터 교체 예정
+```
+
+<a href="#" class="btn btn--success">Back to top</a>
+
 ---
 
 # 🔁 예: 간단한 가격 로직
