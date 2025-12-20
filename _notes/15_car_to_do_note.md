@@ -35,6 +35,63 @@ sidebar:
 🧠 개념
 - 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
 
+<!-- 년/월 필터 버튼 -->
+<div id="filters">
+  <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
+  <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
+  <a href="#" data-filter="2025-10" class="filter">2025-10</a> |
+  <a href="#" data-filter="all" class="filter">전체 보기</a>
+</div>
+
+<!-- 내역 테이블 -->
+<table id="carTable">
+  <thead>
+    <tr>
+      <th>날짜</th>
+      <th>예열 여부</th>
+      <th>내역</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr data-date="2025-12">
+      <td>2025-12-02</td>
+      <td>O</td>
+      <td>엔진 점검</td>
+    </tr>
+    <tr data-date="2025-12">
+      <td>2025-12-10</td>
+      <td>X</td>
+      <td>타이어 교체</td>
+    </tr>
+    <tr data-date="2025-11">
+      <td>2025-11-28</td>
+      <td>O</td>
+      <td>오일 교체</td>
+    </tr>
+    <!-- 실제 데이터 계속 -->
+  </tbody>
+</table>
+
+<script>
+// 버튼 클릭 이벤트 처리
+document.querySelectorAll('#filters .filter').forEach(btn => {
+  btn.addEventListener('click', function(e) {
+    e.preventDefault();
+    const filter = this.getAttribute('data-filter');
+    const rows = document.querySelectorAll('#carTable tbody tr');
+    rows.forEach(row => {
+      // “전체 보기” 선택 시 모두 보이기
+      if (filter === 'all') {
+        row.style.display = '';
+      } else {
+        // data-date 속성과 클릭한 년/월 비교
+        row.style.display = (row.getAttribute('data-date') === filter) ? '' : 'none';
+      }
+    });
+  });
+});
+</script>
+
 🧪 예열 여부
 <html lang="ko">
 <head>
