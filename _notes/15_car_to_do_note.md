@@ -39,7 +39,6 @@ sidebar:
 <div id="filters">
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
   <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
-  <a href="#" data-filter="2025-10" class="filter">2025-10</a> |
   <a href="#" data-filter="all" class="filter">전체 보기</a>
 </div>
 
@@ -48,25 +47,33 @@ sidebar:
   <thead>
     <tr>
       <th>날짜</th>
-      <th>예열 여부</th>
-      <th>내역</th>
+      <th>예열 회수</th>
     </tr>
   </thead>
   <tbody>
     <tr data-date="2025-12">
-      <td>2025-12-02</td>
-      <td>O</td>
-      <td>엔진 점검</td>
+      <td>2025.12.19(금)</td>
+      <td>1</td>
     </tr>
     <tr data-date="2025-12">
-      <td>2025-12-10</td>
-      <td>X</td>
-      <td>타이어 교체</td>
+      <td>2025.12.15(월)</td>
+      <td>1</td>
+    </tr>
+    <tr data-date="2025-12">
+      <td>2025.12.14(일)</td>
+      <td>1</td>
+    </tr>
+    <tr data-date="2025-12">
+      <td>2025.12.13(토)</td>
+      <td>1</td>
+    </tr>
+    <tr data-date="2025-12">
+      <td>2025.12.09(화)</td>
+      <td>2</td>
     </tr>
     <tr data-date="2025-11">
       <td>2025-11-28</td>
       <td>O</td>
-      <td>오일 교체</td>
     </tr>
     <!-- 실제 데이터 계속 -->
   </tbody>
@@ -93,47 +100,6 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 </script>
 
 🧪 예열 여부
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      font-family: sans-serif;
-      # padding: 30px;
-    }
-    h1 {
-      color: #333;
-    }
-    button {
-      margin: 5px;
-      # padding: 10px 20px;
-      font-size: 14px;
-    }
-    #result1 {
-      margin-top: 14px;
-      font-weight: bold;
-      color: #007bff;
-    }
-  </style>
-</head>
-<body>
-  <p>아래 중에서 원하는 년/월을 선택하세요:</p>
-
-  <button onclick="selectPlace('2025년 12월')">2025년 12월</button>
-  <button onclick="selectPlace('2025년 11월')">2025년 11월</button>
-
-  <br><br>
-
-  <h2 id="result1"></h2>
-
-  <script>
-    function selectPlace(place) {
-      document.getElementById('result1').innerText = `선택된 년/월: ${place}`;
-    }
-  </script>
-</body>
-</html>
-
 ```
 2025.12.19(금) 예열 1회
 2025.12.15(월) 예열 1회
