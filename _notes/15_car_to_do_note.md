@@ -36,6 +36,47 @@ sidebar:
 - 시동을 건 후 바로 급하게 운전하기보다, RPM이 떨어진 후 1분 정도 서행하며 예열
 
 🧪 예열 여부
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: sans-serif;
+      # padding: 30px;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      margin: 5px;
+      # padding: 10px 20px;
+      font-size: 14px;
+    }
+    #result1 {
+      margin-top: 14px;
+      font-weight: bold;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <p>아래 중에서 원하는 년/월을 선택하세요:</p>
+
+  <button onclick="selectPlace('2025년 12월')">2025년 12월</button>
+  <button onclick="selectPlace('2025년 11월')">2025년 11월</button>
+
+  <br><br>
+
+  <h2 id="result1"></h2>
+
+  <script>
+    function selectPlace(place) {
+      document.getElementById('result1').innerText = `선택된 년/월: ${place}`;
+    }
+  </script>
+</body>
+</html>
+
 ```
 2025.12.19(금) 예열 1회
 2025.12.15(월) 예열 1회
