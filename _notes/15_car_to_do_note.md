@@ -40,7 +40,8 @@ sidebar:
 <div id="filters">
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
   <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
-  <a href="#" data-filter="all" class="filter">전체 보기</a>
+  <a href="#" data-filter="all" class="filter">전체 보기</a> |
+  <a href="#" data-filter=" " class="filter">안보이게 하기</a>
 </div>
 
 <!-- 내역 테이블 -->
@@ -52,26 +53,11 @@ sidebar:
     </tr>
   </thead>
   <tbody>
-    <tr data-date="2025-12">
-      <td>2025.12.19(금)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-12">
-      <td>2025.12.15(월)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-12">
-      <td>2025.12.14(일)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-12">
-      <td>2025.12.13(토)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-12">
-      <td>2025.12.09(화)</td>
-      <td>2</td>
-    </tr>
+    <tr data-date="2025-12"><td>2025.12.19(금)</td><td>1</td></tr>
+    <tr data-date="2025-12"><td>2025.12.15(월)</td><td>1</td></tr>
+    <tr data-date="2025-12"><td>2025.12.14(일)</td><td>1</td></tr>
+    <tr data-date="2025-12"><td>2025.12.13(토)</td><td>1</td></tr>
+    <tr data-date="2025-12"><td>2025.12.09(화)</td><td>2</td></tr>
     <tr data-date="2025-11">
       <td>2025.11.28(금)</td>
       <td>1</td>
