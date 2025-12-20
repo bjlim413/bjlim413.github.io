@@ -130,12 +130,8 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
     const filter = this.getAttribute('data-filter');
     const rows = document.querySelectorAll('#carTable tbody tr');
     rows.forEach(row => {
-      // “안보이게 하기” 선택 시 모두 안보이게 하기
-      // 처음 화면 진입 시 모두 안보이게 하기
-      if (filter === ' ') {
-        row.style.display = null;
-      } else if (filter === 'all') {
-        // “전체 보기” 선택 시 모두 보이기
+      // “전체 보기” 선택 시 모두 보이기
+      if (filter === 'all') {
         row.style.display = '';
       } else {
         // data-date 속성과 클릭한 년/월 비교
