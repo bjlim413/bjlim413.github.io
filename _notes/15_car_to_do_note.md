@@ -178,7 +178,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 2026.06.27(토) 외부세차 예정
 2026.04.25(토) 외부세차 예정
 2026.02.21(토) 외부세차 예정
-2025.12.20(토) 외부세차 예정
+2025.12.21(일) 외부세차 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
