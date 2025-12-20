@@ -131,7 +131,9 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
     const rows = document.querySelectorAll('#carTable tbody tr');
     rows.forEach(row => {
       // “전체 보기” 선택 시 모두 보이기
-      if (filter === 'all') {
+      if (filter === ' ') {
+        row.style.display = null;
+      } else if (filter === 'all') {
         row.style.display = '';
       } else {
         // data-date 속성과 클릭한 년/월 비교
