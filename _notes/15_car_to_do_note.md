@@ -53,6 +53,7 @@ sidebar:
     </tr>
   </thead>
   <tbody>
+    <tr data-date="2025-12"><td>2025.12.21(일)</td><td>1</td>
     <tr data-date="2025-12"><td>2025.12.20(토)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.19(금)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.15(월)</td><td>1</td></tr>
@@ -179,7 +180,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 2026.03.28(토) 외부세차 예정
 2026.02.28(토) 외부세차 예정
 2026.01.24(토) 외부세차 예정
-2025.12.21(일) 외부세차 예정
+2025.12.22(월) 외부세차 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
