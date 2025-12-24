@@ -19,6 +19,7 @@ sidebar:
 
 🧪 안전운전 점수
 ```
+2025.12.24(수) 94점
 2025.12.23(화) 92점
 2025.12.22(월) 93점
 2025.12.14(일) 92점
@@ -55,6 +56,8 @@ sidebar:
     </tr>
   </thead>
   <tbody>
+    <!-- 실제 데이터 계속 -->
+    <tr data-date="2025-12"><td>2025.12.24(수)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.23(화)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.22(월)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.21(일)</td><td>1</td></tr>
@@ -64,67 +67,21 @@ sidebar:
     <tr data-date="2025-12"><td>2025.12.14(일)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.13(토)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.09(화)</td><td>2</td></tr>
-    <tr data-date="2025-11">
-      <td>2025.11.28(금)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.27(목)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.26(수)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.25(화)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.24(월)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.23(일)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.22(토)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.21(금)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.20(목)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.19(수)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.18(화)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.17(월)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.16(일)</td>
-      <td>1</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.15(토)</td>
-      <td>6</td>
-    </tr>
-    <tr data-date="2025-11">
-      <td>2025.11.14(금)</td>
-      <td>1</td>
-    </tr>
-    <!-- 실제 데이터 계속 -->
+    <tr data-date="2025-11"><td>2025.11.28(금)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.27(목)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.26(수)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.25(화)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.24(월)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.23(일)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.22(토)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.21(금)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.20(목)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.19(수)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.18(화)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.17(월)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.16(일)</td><td>1</td></tr>
+    <tr data-date="2025-11"><td>2025.11.15(토)</td><td>6</td></tr>
+    <tr data-date="2025-11"><td>2025.11.14(금)</td><td>1</td></tr>
   </tbody>
 </table>
 
@@ -150,7 +107,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 총 예열 횟수 (년/월)
 ```
-2025년 12월 총 예열 횟수: 9회
+2025년 12월 총 예열 횟수: 10회
 2025년 11월 총 예열 횟수: 20회
 ```
 
