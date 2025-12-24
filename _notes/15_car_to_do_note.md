@@ -57,6 +57,7 @@ sidebar:
   </thead>
   <tbody>
     <!-- 실제 데이터 계속 -->
+    <!-- 2025-12 -->
     <tr data-date="2025-12"><td>2025.12.24(수)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.23(화)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.22(월)</td><td>1</td></tr>
@@ -67,6 +68,7 @@ sidebar:
     <tr data-date="2025-12"><td>2025.12.14(일)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.13(토)</td><td>1</td></tr>
     <tr data-date="2025-12"><td>2025.12.09(화)</td><td>2</td></tr>
+    <!-- 2025-11 -->
     <tr data-date="2025-11"><td>2025.11.28(금)</td><td>1</td></tr>
     <tr data-date="2025-11"><td>2025.11.27(목)</td><td>1</td></tr>
     <tr data-date="2025-11"><td>2025.11.26(수)</td><td>1</td></tr>
