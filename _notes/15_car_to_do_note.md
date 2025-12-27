@@ -110,7 +110,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 총 예열 횟수 (년/월)
 ```
-2025년 12월 총 예열 횟수: 11회
+2025년 12월 총 예열 횟수: 12회
 2025년 11월 총 예열 횟수: 20회
 ```
 
