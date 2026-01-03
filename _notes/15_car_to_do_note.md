@@ -154,8 +154,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 2026.04.25(토) 외부세차 예정
 2026.03.28(토) 외부세차 예정
 2026.02.28(토) 외부세차 예정
-2026.01.24(토) 외부세차 예정
-2026.01.01(목) 외부세차 예정
+2026.01.03(토토( 외부세차 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
