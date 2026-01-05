@@ -10,6 +10,17 @@ sidebar:
   nav: sidebar-notes
 ---
 
+## 2026-01
+
+### 1월 5일(월) 배당 $43.92
+- Cony ETF
+- 124주
+- 7,495,291원
+
+<br>
+<a href="#" class="btn btn--success">Back to top</a>
+<br> 
+
 ## 2025-12
 
 ### 12월 29일(금) 배당 $41.99
@@ -36,6 +47,10 @@ sidebar:
 - Cony ETF
 - 920주
 - 6,176,441원
+
+<br>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 ## 2025-11
 
