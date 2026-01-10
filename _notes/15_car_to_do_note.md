@@ -156,7 +156,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 2026.04.25(토) 외부세차 예정
 2026.03.28(토) 외부세차 예정
 2026.02.28(토) 외부세차 예정
-2026.01.10(토) 외부세차 예정
+2026.01.11(일) 외부세차 예정
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
@@ -317,7 +317,8 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 디퓨저 오일 충전 내역
 ```
-2026.01.10(토) 오일 충전 예정
+2026.01.31(토) 오일 충전 예정
+2026.01.10(토) 오일 충전
 2025.12.27(토) 오일 충전
 ```
 
