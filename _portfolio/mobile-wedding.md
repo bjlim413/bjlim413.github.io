@@ -12,8 +12,8 @@ header:
 
 sidebar:
   - title: "SAVE THE DATE"
-    image: /assets/images/1732294094349.jpg
-    image_alt: "logo"
+    # image: /assets/images/1732294094349.jpg
+    # image_alt: "logo"
     text: "2025년 11월 29일 (토) 오후 5시"
   - title: "LOCATION"
     text: "서울특별시 강남구 선릉로 757 <br> 더채플앳청담 커티지홀"
