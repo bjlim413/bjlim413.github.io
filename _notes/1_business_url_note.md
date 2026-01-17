@@ -39,6 +39,11 @@ sidebar:
 <a href="https://ep.stx.co.kr/login" class="btn btn--info">STX 그룹웨어 바로가기</a>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
+## 다음
+● Daum 사이트
+<a href="https://www.daum.net/" class="btn btn--info">다음 바로가기</a>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
 
 <br><br>
 # ㄹ
