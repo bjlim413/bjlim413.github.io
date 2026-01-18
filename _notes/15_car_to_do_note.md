@@ -62,6 +62,7 @@ sidebar:
   <tbody>
     <!-- 실제 데이터 계속 -->
     <!-- 2026-01 -->
+    <tr data-date="2026-01"><td>2026.01.18(일)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.10(토)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.04(일)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.03(토)</td><td>1</td></tr>
@@ -119,7 +120,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 총 예열 횟수 (년/월)
 ```
-2026년 01월 총 예열 횟수: 4회
+2026년 01월 총 예열 횟수: 5회
 2025년 12월 총 예열 횟수: 12회
 2025년 11월 총 예열 횟수: 20회
 ```
@@ -135,6 +136,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 주유 내역
 ```
+2026.01.18(일) 53,955원 33.0L (1,635원/L)
 2026.01.03(토) 77,973원 47.0L (1,659원/L)
 2025.12.27(토) 46,968원 28.5L (1,648원/L)
 2025.12.27(토) 87,053원 51.8L (1,681원/L)
@@ -156,7 +158,7 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 2026.04.25(토) 외부세차 예정
 2026.03.28(토) 외부세차 예정
 2026.02.28(토) 외부세차 예정
-2026.01.11(일) 외부세차 예정
+2026.01.18(일) 외부세차
 ```
 
 <a href="#" class="btn btn--success">Back to top</a>
