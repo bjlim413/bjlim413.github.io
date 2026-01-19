@@ -63,6 +63,7 @@ sidebar:
   <tbody>
     <!-- 실제 데이터 계속 -->
     <!-- 2026-01 -->
+    <tr data-date="2026-01"><td>2026.01.19(월)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.18(일)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.10(토)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.04(일)</td><td>1</td></tr>
