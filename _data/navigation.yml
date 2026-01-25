@@ -206,7 +206,12 @@ news-2026-01:
         url: https://bjlim413.github.io/news/2026/2026-01/2026-01-22-news/
       - title: "2026-01-23(금)"
         url: https://bjlim413.github.io/news/2026/2026-01/2026-01-23-news/
-
+      - title: "2026-01-24(토)"
+        url: https://bjlim413.github.io/news/2026/2026-01/2026-01-24-news/
+  - title: "5th week"
+    children:        
+      - title: "2026-01-25(일)"
+        url: https://bjlim413.github.io/news/2026/2026-01/2026-01-25-news/
 
 # news-2025-08 links
 news-2025-08:
