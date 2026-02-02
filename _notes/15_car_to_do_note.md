@@ -47,6 +47,7 @@ sidebar:
 🧪 예열 여부
 <!-- 년/월 필터 버튼 -->
 <div id="filters">
+  <a href="#" data-filter="2026-02" class="filter">2026-02</a> |
   <a href="#" data-filter="2026-01" class="filter">2026-01</a> |
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
   <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
@@ -64,6 +65,7 @@ sidebar:
   </thead>
   <tbody>
     <!-- 실제 데이터 계속 -->
+    <!-- 2026-02 -->
     <!-- 2026-01 -->
     <tr data-date="2026-01"><td>2026.01.30(금)</td><td>1</td></tr>
     <tr data-date="2026-01"><td>2026.01.26(월)</td><td>1</td></tr>
@@ -326,7 +328,8 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
 
 🧪 디퓨저 오일 충전 내역
 ```
-2026.01.31(토) 오일 충전 예정
+2026.02.14(토) 오일 충전
+2026.01.31(토) 오일 충전
 2026.01.10(토) 오일 충전
 2025.12.27(토) 오일 충전
 ```
