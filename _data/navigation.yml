@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+    - title: "AP"
+      url: https://fcmoracle.github.io/ap/
+    - title: "AR"
+      url: https://fcmoracle.github.io/ar/
+    - title: "GL"
+      url: https://fcmoracle.github.io/gl/
+    - title: "TR"
+      url: https://fcmoracle.github.io/tr/
+    - title: "Budget"
+      url: https://fcmoracle.github.io/budget/
