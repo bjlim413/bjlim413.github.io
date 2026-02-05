@@ -116,8 +116,7 @@ author:
   name             : "FCM"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "What is **ORACLE** ?"
-  location         : "Oracle Forms Builder"
-  location         : "PL/SQL Developer"
+  location         : # "PL/SQL Developer"
   email            :
   links:
     - label: "Email"
