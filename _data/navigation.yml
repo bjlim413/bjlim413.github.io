@@ -198,6 +198,16 @@ news-2026-02:
         url: https://bjlim413.github.io/news/2026/2026-02/2026-02-19-news/
       - title: "2026-02-20(금)"
         url: https://bjlim413.github.io/news/2026/2026-02/2026-02-20-news/
+      - title: "2026-02-21(토)"
+        url: https://bjlim413.github.io/news/2026/2026-02/2026-02-21-news/
+  - title: "4th week"
+    children:
+      - title: "2026-02-22(일)"
+        url: https://bjlim413.github.io/news/2026/2026-02/2026-02-22-news/
+      - title: "2026-02-23(월)"
+        url: https://bjlim413.github.io/news/2026/2026-02/2026-02-23-news/
+      - title: "2026-02-24(화)"
+        url: https://bjlim413.github.io/news/2026/2026-02/2026-02-24-news/
         
 # news-2026-01 links
 news-2026-01:
