@@ -54,7 +54,7 @@ sidebar:
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
   <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
   <a href="#" data-filter="all" class="filter">전체 보기</a> |
-  <a href="#" data-filter=" " class="filter">안보이게 하기</a>
+  <a href="#" data-filter="hide" class="filter">안보이게 하기</a>
 </div>
 
 <!-- 합계 표시 -->
@@ -128,6 +128,12 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
     const rows = document.querySelectorAll('#carTable tbody tr');
     const totalBox = document.getElementById('total');
 
+    if (filter === 'hide') {
+      table.style.display = 'none';
+      totalBox.innerText = '';
+      return;
+    }
+    
     // 테이블 보이기
     table.style.display = 'table';
 
@@ -143,8 +149,12 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
         sum += count;
       } else {
         // data-date 속성과 클릭한 년/월 비교
-        row.style.display = (row.getAttribute('data-date') === filter) ? '' : 'none';
-        sum += count;
+        if (row.getAttribute('data-date') === filter) {
+          row.style.display = '';
+          sum += count;
+        } else {
+          row.style.display = 'none';
+        }
       }
     });
       
