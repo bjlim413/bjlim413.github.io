@@ -57,6 +57,9 @@ sidebar:
   <a href="#" data-filter=" " class="filter">안보이게 하기</a>
 </div>
 
+<!-- 합계 표시 -->
+<div id="total" style="margin:10px 0; font-weight:bold;"></div>
+
 <!-- 내역 테이블 -->
 <table id="carTable" style="display:none;">
   <thead>
@@ -123,19 +126,29 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
     const filter = this.getAttribute('data-filter');
     const table = document.getElementById('carTable');
     const rows = document.querySelectorAll('#carTable tbody tr');
+    const totalBox = document.getElementById('total');
 
     // 테이블 보이기
     table.style.display = 'table';
-    
+
+    let sum = 0;
+
+    rows.forEach(row => {
+      const count = parseInt(row.children[1].innerText);
+      
     rows.forEach(row => {
       // “전체 보기” 선택 시 모두 보이기
       if (filter === 'all') {
         row.style.display = '';
+        sum += count;
       } else {
         // data-date 속성과 클릭한 년/월 비교
         row.style.display = (row.getAttribute('data-date') === filter) ? '' : 'none';
+        sum += count;
       }
     });
+      
+      totalBox.innerText = "예열 횟수 합계: " + sum;
   });
 });
 </script>
