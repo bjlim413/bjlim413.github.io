@@ -121,7 +121,12 @@ document.querySelectorAll('#filters .filter').forEach(btn => {
   btn.addEventListener('click', function(e) {
     e.preventDefault();
     const filter = this.getAttribute('data-filter');
+    const table = document.getElementById('carTable');
     const rows = document.querySelectorAll('#carTable tbody tr');
+
+    // 테이블 보이기
+    table.style.display = 'table';
+    
     rows.forEach(row => {
       // “전체 보기” 선택 시 모두 보이기
       if (filter === 'all') {
