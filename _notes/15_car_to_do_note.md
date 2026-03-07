@@ -57,7 +57,7 @@ sidebar:
 </div>
 
 <!-- 내역 테이블 -->
-<table id="carTable">
+<table id="carTable" style="display:none;">
   <thead>
     <tr>
       <th>날짜</th>
