@@ -49,7 +49,7 @@ sidebar:
 🧪 예열 여부
 <!-- 년/월 필터 버튼 -->
 <div id="filters">
-  <a href="#" data-filter="2026-02" class="filter">2026-03</a> |
+  <a href="#" data-filter="2026-03" class="filter">2026-03</a> |
   <a href="#" data-filter="2026-02" class="filter">2026-02</a> |
   <a href="#" data-filter="2026-01" class="filter">2026-01</a> |
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
