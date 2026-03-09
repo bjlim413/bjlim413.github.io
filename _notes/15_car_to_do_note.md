@@ -165,6 +165,9 @@ document.querySelectorAll('#filters .filter').forEach(btn=>{
   });
 });
 
+// 최신월 자동 실행
+document.querySelector('#filters .filter').click();
+
 </script>
 
 <a href="#" class="btn btn--success">Back to top</a>
