@@ -49,12 +49,13 @@ sidebar:
 🧪 예열 여부
 <!-- 년/월 필터 버튼 -->
 <div id="filters">
+  <a href="#" data-filter="2026-02" class="filter">2026-03</a> |
   <a href="#" data-filter="2026-02" class="filter">2026-02</a> |
   <a href="#" data-filter="2026-01" class="filter">2026-01</a> |
   <a href="#" data-filter="2025-12" class="filter">2025-12</a> |
   <a href="#" data-filter="2025-11" class="filter">2025-11</a> |
   <a href="#" data-filter="all" class="filter">전체 보기</a> |
-  <a href="#" data-filter="hide" class="filter">안보이게 하기</a>
+  <a href="#" data-filter="hide" class="filter">숨김 처리</a>
 </div>
 
 <!-- 합계 표시 -->
@@ -70,6 +71,11 @@ sidebar:
   </thead>
   <tbody>
     <!-- 실제 데이터 계속 -->
+    <!-- 2026-03 -->
+    <tr data-date="2026-03"><td>2026.03.08(일)</td><td>1</td></tr>
+    <tr data-date="2026-03"><td>2026.03.07(토)</td><td>1</td></tr>
+    <tr data-date="2026-03"><td>2026.03.02(월)</td><td>1</td></tr>
+    <tr data-date="2026-03"><td>2026.03.01(일)</td><td>1</td></tr>
     <!-- 2026-02 -->
     <tr data-date="2026-02"><td>2026.02.25(수)</td><td>1</td></tr>
     <tr data-date="2026-02"><td>2026.02.22(일)</td><td>1</td></tr>
@@ -155,19 +161,11 @@ document.querySelectorAll('#filters .filter').forEach(btn=>{
       } 
     });
     
-    totalBox.innerText="예열 횟수 합계 : "+sum;
+    totalBox.innerText="예열 횟수 합계 : "+sum+"회";
   });
 });
 
 </script>
-
-🧪 총 예열 횟수 (년/월)
-```
-2026년 02월 총 예열 횟수: 6회
-2026년 01월 총 예열 횟수: 8회
-2025년 12월 총 예열 횟수: 12회
-2025년 11월 총 예열 횟수: 20회
-```
 
 <a href="#" class="btn btn--success">Back to top</a>
 
