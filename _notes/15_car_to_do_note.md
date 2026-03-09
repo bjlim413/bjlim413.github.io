@@ -60,9 +60,6 @@ sidebar:
 <!-- 합계 표시 -->
 <div id="total" style="margin:10px 0; font-weight:bold;"></div>
 
-<!-- 그래프 -->
-<canvas id="warmupChart" style="max-width:600px;margin-bottom:20px;"></canvas>
-
 <!-- 내역 테이블 -->
 <table id="carTable" style="display:none;">
   <thead>
@@ -122,89 +119,46 @@ sidebar:
 </table>
 
 <script>
-
-// 월별 합계 계산
-function calculateMonthlyTotals(){
-  const rows=document.querySelectorAll("#carTable tbody tr");
-  const totals={};
-
-  rows.forEach(row=>{
-    const month=row.getAttribute("data-date");
-    const count=parseInt(row.children[1].innerText);
-
-    if(!totals[month]) totals[month]=0;
-    totals[month]+=count;
-  });
-
-  return totals;
-}
-
-// 그래프 생성
-const totals=calculateMonthlyTotals();
-
-const ctx=document.getElementById('warmupChart');
-
-new Chart(ctx,{
-  type:'bar',
-  data:{
-    labels:Object.keys(totals),
-    datasets:[{
-      label:'월별 예열 횟수',
-      data:Object.values(totals),
-      backgroundColor:'#4e73df'
-    }]
-  },
-  options:{
-    responsive:true,
-    plugins:{
-      legend:{display:true}
-    }
-  }
-});
-
-// 필터
 document.querySelectorAll('#filters .filter').forEach(btn=>{
-btn.addEventListener('click',function(e){
 
-e.preventDefault();
-
-const filter=this.getAttribute('data-filter');
-const rows=document.querySelectorAll('#carTable tbody tr');
-const table=document.getElementById('carTable');
-const totalBox=document.getElementById('total');
-
-if(filter==="hide"){
-table.style.display="none";
-totalBox.innerText="";
-return;
-}
-
-table.style.display="table";
-
-let sum=0;
-
-rows.forEach(row=>{
-
-const count=parseInt(row.children[1].innerText);
-
-if(filter==="all"){
-row.style.display="";
-sum+=count;
-}else{
-if(row.getAttribute('data-date')===filter){
-row.style.display="";
-sum+=count;
-}else{
-row.style.display="none";
-}
-}
-
+  btn.addEventListener('click',function(e){
+  
+    e.preventDefault();
+  
+    const filter=this.getAttribute('data-filter');
+    const rows=document.querySelectorAll('#carTable tbody tr');
+    const table=document.getElementById('carTable');
+    const totalBox=document.getElementById('total');
+  
+    if(filter==="hide"){
+      table.style.display="none";
+      totalBox.innerText="";
+      return;
+    }
+    
+    table.style.display="table";
+    
+    let sum=0;
+    
+    rows.forEach(row=>{
+      const count=parseInt(row.children[1].innerText)||0;
+      if(filter==="all"){
+        row.style.display="";
+        sum+=count;
+      }else{
+        if(row.getAttribute('data-date')===filter){
+          row.style.display="";
+          sum+=count;
+        }else{
+          row.style.display="none";
+        }
+      } 
+    });
+    
+    totalBox.innerText="예열 횟수 합계 : "+sum;
+  });
 });
 
-totalBox.innerText="예열 횟수 합계 : "+sum;
-
-});
-});
 </script>
 
 🧪 총 예열 횟수 (년/월)
