@@ -302,6 +302,100 @@ document.querySelector('#filters .filter').click();
 - 연료 펌프의 냉각 및 수분 유입 방지에 도움
 
 🧪 주유 내역
+<!-- 월 필터 -->
+<div id="filters"></div>
+
+<!-- 월 요약 -->
+<div id="summary" style="margin:10px 0;font-weight:bold;"></div>
+
+<!-- 상세 테이블 -->
+<table id="fuelTable" border="1" style="display:none;border-collapse:collapse;">
+<thead>
+<tr>
+<th>날짜</th>
+<th>금액</th>
+<th>주유량(L)</th>
+<th>단가</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script>
+
+// 원본 데이터
+const data = [
+{date:"2026.03.01(일)", price:74000, liter:45.7, unit:1619},
+{date:"2026.02.22(일)", price:79000, liter:46.5, unit:1698},
+{date:"2026.02.07(토)", price:71000, liter:43.7, unit:1622},
+{date:"2026.01.18(일)", price:53955, liter:33.0, unit:1635},
+{date:"2026.01.03(토)", price:77973, liter:47.0, unit:1659},
+{date:"2025.12.27(토)", price:46968, liter:28.5, unit:1648},
+{date:"2025.12.27(토)", price:87053, liter:51.8, unit:1681},
+{date:"2025.11.28(금)", price:47284, liter:27.7, unit:1704},
+{date:"2025.11.21(금)", price:40000, liter:23.5, unit:1704},
+{date:"2025.11.14(금)", price:60000, liter:35.4, unit:1695}
+];
+
+// 월별 그룹화
+const monthly={};
+
+data.forEach(d=>{
+const month=d.date.substring(0,7);
+
+if(!monthly[month]) monthly[month]=[];
+
+monthly[month].push(d);
+});
+
+// 월 버튼 생성
+const filterDiv=document.getElementById("filters");
+
+Object.keys(monthly).sort().reverse().forEach(month=>{
+
+const btn=document.createElement("button");
+btn.innerText=month;
+
+btn.onclick=function(){
+
+const table=document.getElementById("fuelTable");
+const tbody=table.querySelector("tbody");
+tbody.innerHTML="";
+
+let totalPrice=0;
+let totalLiter=0;
+let count=monthly[month].length;
+
+monthly[month].forEach(d=>{
+
+const tr=document.createElement("tr");
+
+tr.innerHTML=`
+<td>${d.date}</td>
+<td>${d.price.toLocaleString()}원</td>
+<td>${d.liter}L</td>
+<td>${d.unit.toLocaleString()}원</td>
+`;
+
+tbody.appendChild(tr);
+
+totalPrice+=d.price;
+totalLiter+=d.liter;
+
+});
+
+document.getElementById("summary").innerText =
+`${month} 주유 횟수: ${count}회 / 총 금액: ${totalPrice.toLocaleString()}원 / 총 주유량: ${totalLiter.toFixed(1)}L`;
+
+table.style.display="table";
+
+};
+
+filterDiv.appendChild(btn);
+
+});
+
+</script>
 ```
 2026.03.01(일) 74,000원 45.7L (1,619원/L)
 2026.02.22(일) 79,000원 46.5L (1,698원/L)
