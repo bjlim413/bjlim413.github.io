@@ -116,7 +116,18 @@ filterDiv.appendChild(btn);
 
 });
 
-// 그래프
+// 그래프 데이터
+const labels=[];
+const averages=[];
+
+Object.keys(monthly).sort().forEach(month=>{
+
+labels.push(month);
+averages.push((monthly[month].sum/monthly[month].count).toFixed(2));
+
+});
+
+// 그래프 생성
 const ctx=document.getElementById("scoreChart");
 
 new Chart(ctx,{
@@ -125,8 +136,7 @@ data:{
 labels:labels,
 datasets:[{
 label:"월별 평균 점수",
-data:averages,
-backgroundColor:"#4e73df"
+data:averages
 }]
 },
 options:{
@@ -138,6 +148,8 @@ max:100
 }
 }
 }
+});
+
 });
 
 </script>
