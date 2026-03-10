@@ -18,6 +18,102 @@ sidebar:
 - 제한 속도를 지키기
 
 🧪 안전운전 점수
+
+<!-- 월 필터 -->
+<div id="filters"></div>
+
+<!-- 평균 -->
+<div id="average" style="margin:10px 0;font-weight:bold;"></div>
+
+<!-- 테이블 -->
+<table id="scoreTable" border="1" style="display:none;border-collapse:collapse;">
+<thead>
+<tr>
+<th>날짜</th>
+<th>점수</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<script>
+
+// 원본 데이터
+const data = [
+{date:"2026.03.02",score:97},
+{date:"2026.02.11",score:96},
+{date:"2026.01.30",score:95},
+{date:"2026.01.26",score:94},
+{date:"2026.01.18",score:95},
+{date:"2026.01.03",score:96},
+{date:"2025.12.28",score:95},
+{date:"2025.12.27",score:93},
+{date:"2025.12.24",score:94},
+{date:"2025.12.23",score:92},
+{date:"2025.12.22",score:93},
+{date:"2025.12.14",score:92},
+{date:"2025.11.30",score:94},
+{date:"2025.11.28",score:92},
+{date:"2025.11.27",score:93},
+{date:"2025.11.23",score:92},
+{date:"2025.11.22",score:93},
+{date:"2025.11.16",score:91}
+];
+
+// 월별 그룹화
+const monthly = {};
+
+data.forEach(d=>{
+const month=d.date.substring(0,7);
+
+if(!monthly[month]) monthly[month]=[];
+
+monthly[month].push(d);
+});
+
+// 월 필터 생성
+const filterDiv=document.getElementById("filters");
+
+Object.keys(monthly).sort().reverse().forEach(month=>{
+
+const btn=document.createElement("button");
+btn.innerText=month;
+
+btn.onclick=function(){
+
+const table=document.getElementById("scoreTable");
+const tbody=table.querySelector("tbody");
+tbody.innerHTML="";
+
+let sum=0;
+
+monthly[month].forEach(d=>{
+
+const tr=document.createElement("tr");
+
+tr.innerHTML=`<td>${d.date}</td><td>${d.score}</td>`;
+
+tbody.appendChild(tr);
+
+sum+=d.score;
+
+});
+
+const avg=(sum/monthly[month].length).toFixed(2);
+
+document.getElementById("average").innerText=
+month+" 평균 점수 : "+avg+"점";
+
+table.style.display="table";
+
+};
+
+filterDiv.appendChild(btn);
+
+});
+
+</script>
+
 ```
 2026.03.02(월) 97점
 2026.02.11(수) 96점
