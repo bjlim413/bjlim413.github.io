@@ -25,10 +25,6 @@ sidebar:
 <!-- 평균 -->
 <div id="average" style="margin:10px 0;font-weight:bold;"></div>
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
-<canvas id="scoreChart" style="max-width:700px;"></canvas>
-
 <!-- 테이블 -->
 <table id="scoreTable" border="1" style="display:none;border-collapse:collapse;">
 <thead>
@@ -124,31 +120,6 @@ Object.keys(monthly).sort().forEach(month=>{
 
 labels.push(month);
 averages.push((monthly[month].sum/monthly[month].count).toFixed(2));
-
-});
-
-// 그래프 생성
-const ctx=document.getElementById("scoreChart");
-
-new Chart(ctx,{
-type:"bar",
-data:{
-labels:labels,
-datasets:[{
-label:"월별 평균 점수",
-data:averages
-}]
-},
-options:{
-responsive:true,
-scales:{
-y:{
-min:85,
-max:100
-}
-}
-}
-});
 
 });
 
