@@ -20,7 +20,7 @@ sidebar:
 🧪 안전운전 점수
 <!-- Chart.js -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-외
+
 <!-- 월 필터 -->
 <div id="filters"></div>
 
@@ -43,8 +43,8 @@ sidebar:
 
 // 원본 데이터
 const data = [
-{date:"2026.03.02",score:97},
-{date:"2026.02.11",score:96},
+{date:"2026.03.02(월)",score:97},
+{date:"2026.02.11(수)",score:96},
 {date:"2026.01.30",score:95},
 {date:"2026.01.26",score:94},
 {date:"2026.01.18",score:95},
