@@ -18,13 +18,16 @@ sidebar:
 - 제한 속도를 지키기
 
 🧪 안전운전 점수
-
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+외
 <!-- 월 필터 -->
 <div id="filters"></div>
 
 <!-- 평균 -->
 <div id="average" style="margin:10px 0;font-weight:bold;"></div>
-
+<!-- 그래프 -->
+<canvas id="scoreChart" style="max-width:700px;margin-bottom:20px;"></canvas>
 <!-- 테이블 -->
 <table id="scoreTable" border="1" style="display:none;border-collapse:collapse;">
 <thead>
@@ -112,15 +115,48 @@ filterDiv.appendChild(btn);
 
 });
 
-// 그래프 데이터
+// ---------------------
+// 월별 평균 그래프 생성
+// ---------------------
+
 const labels=[];
 const averages=[];
 
 Object.keys(monthly).sort().forEach(month=>{
 
-labels.push(month);
-averages.push((monthly[month].sum/monthly[month].count).toFixed(2));
+let sum=0;
 
+monthly[month].forEach(d=>{
+sum += d.score;
+});
+
+const avg=(sum/monthly[month].length).toFixed(2);
+
+labels.push(month);
+averages.push(avg);
+
+});
+
+const ctx=document.getElementById("scoreChart");
+
+new Chart(ctx,{
+type:"bar",
+data:{
+labels:labels,
+datasets:[{
+label:"월별 평균 점수",
+data:averages
+}]
+},
+options:{
+responsive:true,
+scales:{
+y:{
+min:85,
+max:100
+}
+}
+}
 });
 
 </script>
