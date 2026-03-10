@@ -25,6 +25,10 @@ sidebar:
 <!-- 평균 -->
 <div id="average" style="margin:10px 0;font-weight:bold;"></div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<canvas id="scoreChart" style="max-width:700px;"></canvas>
+
 <!-- 테이블 -->
 <table id="scoreTable" border="1" style="display:none;border-collapse:collapse;">
 <thead>
@@ -110,6 +114,30 @@ table.style.display="table";
 
 filterDiv.appendChild(btn);
 
+});
+
+// 그래프
+const ctx=document.getElementById("scoreChart");
+
+new Chart(ctx,{
+type:"bar",
+data:{
+labels:labels,
+datasets:[{
+label:"월별 평균 점수",
+data:averages,
+backgroundColor:"#4e73df"
+}]
+},
+options:{
+responsive:true,
+scales:{
+y:{
+min:85,
+max:100
+}
+}
+}
 });
 
 </script>
