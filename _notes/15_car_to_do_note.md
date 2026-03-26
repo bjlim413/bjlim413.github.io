@@ -301,14 +301,18 @@ document.querySelector('#filters .filter').click();
 
 - 연료 펌프의 냉각 및 수분 유입 방지에 도움
 
+<!-- Chart.js 추가 -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
 🧪 주유 내역
-<!-- 월 필터 -->
+
 <div id="filters"></div>
 
-<!-- 월 요약 -->
 <div id="summary" style="margin:10px 0;font-weight:bold;"></div>
 
-<!-- 상세 테이블 -->
+<!-- 그래프 -->
+<canvas id="fuelChart" style="max-width:600px;margin:20px 0;"></canvas>
+
 <table id="fuelTable" border="1" style="display:none;border-collapse:collapse;">
 <thead>
 <tr>
@@ -323,7 +327,7 @@ document.querySelector('#filters .filter').click();
 
 <script>
 
-// 원본 데이터
+// 데이터
 const data = [
 {date:"2026.03.01(일)", price:74000, liter:45.7, unit:1619},
 {date:"2026.02.22(일)", price:79000, liter:46.5, unit:1698},
@@ -338,65 +342,92 @@ const data = [
 ];
 
 // 월별 그룹화
-const monthly={};
-
-data.forEach(d=>{
-const month=d.date.substring(0,7);
-
-if(!monthly[month]) monthly[month]=[];
-
-monthly[month].push(d);
+const monthly = {};
+data.forEach(d => {
+    const month = d.date.substring(0,7);
+    if(!monthly[month]) monthly[month] = [];
+    monthly[month].push(d);
 });
 
-// 월 버튼 생성
-const filterDiv=document.getElementById("filters");
+const filterDiv = document.getElementById("filters");
+let chart; // 차트 객체 저장
 
-Object.keys(monthly).sort().reverse().forEach(month=>{
+Object.keys(monthly).sort().reverse().forEach(month => {
 
-const btn=document.createElement("button");
-btn.innerText=month;
+    const btn = document.createElement("button");
+    btn.innerText = month;
 
-btn.onclick=function(){
+    btn.onclick = function(){
 
-const table=document.getElementById("fuelTable");
-const tbody=table.querySelector("tbody");
-tbody.innerHTML="";
+        const table = document.getElementById("fuelTable");
+        const tbody = table.querySelector("tbody");
+        tbody.innerHTML = "";
 
-let totalPrice=0;
-let totalLiter=0;
-let count=monthly[month].length;
+        let totalPrice = 0;
+        let totalLiter = 0;
+        let count = monthly[month].length;
 
-monthly[month].forEach(d=>{
+        const labels = [];
+        const prices = [];
+        const liters = [];
 
-const tr=document.createElement("tr");
+        monthly[month].forEach(d => {
 
-tr.innerHTML=`
-<td>${d.date}</td>
-<td>${d.price.toLocaleString()}원</td>
-<td>${d.liter}L</td>
-<td>${d.unit.toLocaleString()}원</td>
-`;
+            const tr = document.createElement("tr");
 
-tbody.appendChild(tr);
+            tr.innerHTML = `
+            <td>${d.date}</td>
+            <td>${d.price.toLocaleString()}원</td>
+            <td>${d.liter}L</td>
+            <td>${d.unit.toLocaleString()}원</td>
+            `;
 
-totalPrice+=d.price;
-totalLiter+=d.liter;
+            tbody.appendChild(tr);
 
-});
+            totalPrice += d.price;
+            totalLiter += d.liter;
 
-document.getElementById("summary").innerText =
-`${month} 주유 횟수: ${count}회 / 총 금액: ${totalPrice.toLocaleString()}원 / 총 주유량: ${totalLiter.toFixed(1)}L`;
+            labels.push(d.date);
+            prices.push(d.price);
+            liters.push(d.liter);
+        });
 
-table.style.display="table";
+        document.getElementById("summary").innerText =
+        `${month} 주유 횟수: ${count}회 / 총 금액: ${totalPrice.toLocaleString()}원 / 총 주유량: ${totalLiter.toFixed(1)}L`;
 
-};
+        table.style.display = "table";
 
-filterDiv.appendChild(btn);
+        // 기존 차트 제거
+        if(chart) chart.destroy();
 
+        // 새 차트 생성
+        const ctx = document.getElementById("fuelChart");
+
+        chart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: labels,
+                datasets: [
+                    {
+                        label: '금액(원)',
+                        data: prices,
+                        backgroundColor: 'rgba(255, 99, 132, 0.5)'
+                    },
+                    {
+                        label: '주유량(L)',
+                        data: liters,
+                        backgroundColor: 'rgba(54, 162, 235, 0.5)'
+                    }
+                ]
+            }
+        });
+
+    };
+
+    filterDiv.appendChild(btn);
 });
 
 </script>
-
 ```
 2026.03.01(일) 74,000원 45.7L (1,619원/L)
 2026.02.22(일) 79,000원 46.5L (1,698원/L)
