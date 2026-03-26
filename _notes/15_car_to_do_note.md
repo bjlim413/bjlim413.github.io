@@ -301,9 +301,6 @@ document.querySelector('#filters .filter').click();
 
 - 연료 펌프의 냉각 및 수분 유입 방지에 도움
 
-<!-- Chart.js 추가 -->
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 🧪 주유 내역
 
 <div id="filters"></div>
