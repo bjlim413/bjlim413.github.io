@@ -150,6 +150,15 @@ sidebar-notes:
       - title: "Diary"
         url: https://bjlim413.github.io/notes/17_diary_note/
 
+# news-2026-06 links
+news-2026-06:
+  - title: "1st week"
+  - title: "2nd week"
+  - title: "3rd week"
+    children:
+      - title: "2026-06-14(일)"
+        url: https://bjlim413.github.io/news/2026/2026-06/2026-06-14-news/
+
 # news-2026-03 links
 news-2026-03:
   - title: "1st week"
