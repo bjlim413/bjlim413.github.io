@@ -467,6 +467,7 @@ document.querySelector('#filters .filter').click();
 
 🧪 운전석 사이드미러 흠집
 2026.06.19(금)
+```
 - 주차 시 벽에 부딪힘
 - 사이드미러 꺽임
 - 꺽이면서 기스 및 흠집
