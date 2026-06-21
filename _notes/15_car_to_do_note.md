@@ -5,6 +5,7 @@ excerpt: 15th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "comment"
+toc_sticky: "false"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
@@ -463,6 +464,16 @@ document.querySelector('#filters .filter').click();
 ## 8. 기스 및 흠집
 🧠 개념
 - 주차 및 출차시에 벽에 긁힌 흠집 및 생활 기스 확인
+
+🧪 운전석 사이드미러 흠집
+2026.06.19(금)
+- 주차 시 벽에 부딪힘
+- 사이드미러 꺽임
+- 꺽이면서 기스 및 흠집
+```
+
+- 2026.06.19(금) <br>
+![투싼흠집](/assets/images/car/TUCSON/투싼 운전석 사이드미러 흠집.jpg){: width="50%" height="50%"}{: .center}
 
 🧪 컴파운드 → 빠데 → 도색 내역
 ```
