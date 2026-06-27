@@ -139,7 +139,8 @@ button:hover{
 <button onclick="go('https://www.mrblue.com')">바로가기</button>
 </div>
 
-뉴토끼 
+---
+# 뉴토끼 
 ---
 <div class="card">
 <h2>뉴토끼</h2>
