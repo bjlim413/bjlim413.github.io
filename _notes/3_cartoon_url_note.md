@@ -11,15 +11,143 @@ sidebar:
 ---
 
 📚 웹툰.
-## 뉴토끼
-● 웹툰 소설.
-<a href="https://newtoki468.com/" class="btn btn--info">뉴토끼 바로가기</a>
-<a href="#" class="btn btn--success">Back to top</a>
-<br>
 
-## 신의탑
-● 탑에 들어온 소년 그리고 그런 소년을 시험하는 탑.
-<a href="https://newtoki468.com/webtoon/368/%EC%8B%A0%EC%9D%98%ED%83%91?stx=%EC%8B%A0%EC%9D%98%ED%83%91&sst=as_update&sod=desc&toon=%EC%9D%BC%EB%B0%98%EC%9B%B9%ED%88%B0" class="btn btn--info">신의탑 바로가기</a>
-<a href="#" class="btn btn--success">Back to top</a>
-<br>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📚 웹툰 바로가기</title>
 
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background:#eef2f7;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+    margin:40px auto;
+}
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    color:#222;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,.1);
+}
+
+.card h2{
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#666;
+    margin-bottom:15px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:#00c73c;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#009b2d;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📚 웹툰 사이트 바로가기</h1>
+
+<div class="grid">
+
+<div class="card">
+<h2>네이버 웹툰</h2>
+<p>국내 최대 웹툰 플랫폼</p>
+<button onclick="go('https://comic.naver.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>카카오웹툰</h2>
+<p>카카오 웹툰 서비스</p>
+<button onclick="go('https://webtoon.kakao.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>카카오페이지</h2>
+<p>웹툰 · 웹소설</p>
+<button onclick="go('https://page.kakao.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>레진코믹스</h2>
+<p>프리미엄 웹툰</p>
+<button onclick="go('https://www.lezhin.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>탑툰</h2>
+<p>웹툰 플랫폼</p>
+<button onclick="go('https://toptoon.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>투믹스</h2>
+<p>웹툰 서비스</p>
+<button onclick="go('https://www.toomics.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>봄툰</h2>
+<p>로맨스·BL 웹툰</p>
+<button onclick="go('https://www.bomtoon.com')">바로가기</button>
+</div>
+
+<div class="card">
+<h2>미스터블루</h2>
+<p>웹툰 · 웹소설</p>
+<button onclick="go('https://www.mrblue.com')">바로가기</button>
+</div>
+
+</div>
+
+</div>
+
+<script>
+function go(url){
+    window.open(url, "_blank");
+}
+</script>
+
+</body>
+</html>
