@@ -128,6 +128,7 @@ nav a:hover{
     <a href="#toomics">투믹스</a>
     <a href="#bomtoon">봄툰</a>
     <a href="#mrblue">미스터블루</a>
+    <a href="#newtoki">뉴토끼</a>
 </nav>
 
 <div class="grid">
@@ -144,43 +145,43 @@ nav a:hover{
 <button onclick="go('https://webtoon.kakao.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="page">
 <h2>카카오페이지</h2>
 <p>웹툰 · 웹소설</p>
 <button onclick="go('https://page.kakao.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="lezhin">
 <h2>레진코믹스</h2>
 <p>프리미엄 웹툰</p>
 <button onclick="go('https://www.lezhin.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="toptoon">
 <h2>탑툰</h2>
 <p>웹툰 플랫폼</p>
 <button onclick="go('https://toptoon.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="toomics">
 <h2>투믹스</h2>
 <p>웹툰 서비스</p>
 <button onclick="go('https://www.toomics.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="bomtoon">
 <h2>봄툰</h2>
 <p>로맨스·BL 웹툰</p>
 <button onclick="go('https://www.bomtoon.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="mrblue">
 <h2>미스터블루</h2>
 <p>웹툰 · 웹소설</p>
 <button onclick="go('https://www.mrblue.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="newtoki">
 <h2>뉴토끼</h2>
 <p>웹툰 · 웹소설</p>
 <button onclick="go('https://newtoki1.org/')">바로가기</button>
