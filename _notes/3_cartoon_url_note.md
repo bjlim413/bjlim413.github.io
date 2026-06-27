@@ -79,6 +79,36 @@ button{
 button:hover{
     background:#009b2d;
 }
+  
+html{
+    scroll-behavior:smooth;
+}
+
+nav{
+    position:sticky;
+    top:0;
+    background:white;
+    padding:15px;
+    box-shadow:0 2px 8px rgba(0,0,0,.15);
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:10px;
+    z-index:999;
+}
+
+nav a{
+    text-decoration:none;
+    color:#00c73c;
+    font-weight:bold;
+    padding:8px 12px;
+    border-radius:6px;
+}
+
+nav a:hover{
+    background:#00c73c;
+    color:white;
+}
 </style>
 
 </head>
@@ -89,15 +119,26 @@ button:hover{
 
 <h1>📚 웹툰 사이트 바로가기</h1>
 
+<nav>
+    <a href="#naver">네이버</a>
+    <a href="#kakao">카카오웹툰</a>
+    <a href="#page">카카오페이지</a>
+    <a href="#lezhin">레진</a>
+    <a href="#toptoon">탑툰</a>
+    <a href="#toomics">투믹스</a>
+    <a href="#bomtoon">봄툰</a>
+    <a href="#mrblue">미스터블루</a>
+</nav>
+
 <div class="grid">
 
-<div class="card">
+<div class="card" id="naver">
 <h2>네이버 웹툰</h2>
 <p>국내 최대 웹툰 플랫폼</p>
 <button onclick="go('https://comic.naver.com')">바로가기</button>
 </div>
 
-<div class="card">
+<div class="card" id="kakao">
 <h2>카카오웹툰</h2>
 <p>카카오 웹툰 서비스</p>
 <button onclick="go('https://webtoon.kakao.com')">바로가기</button>
