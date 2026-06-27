@@ -12,49 +12,119 @@ sidebar:
 
 🎥 킬링타임엔 영화 드라마가 딱이에요.
 <br><br>
-# 영화
-## 승부
-● 사제간의 바둑 대결. 프로의 세계는 냉정하다.<br><a href="https://tvwiki22.com/movie/26405/406554139" class="btn btn--info">승부 바로가기</a>
-<br>
-<a href="#" class="btn btn--success">Back to top</a>
-<br>
 
-## 올드가드
-### - 올드가드1
-&emsp;● 불멸자의 인생. 세계의 질서를 세운다.<br>&emsp;<a href="https://tvwiki22.com/movie/8295" class="btn btn--info">올드가드1 바로가기</a>
-<br>
-&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🎬 영화 사이트 모음</title>
 
-### - 올드가드2
-&emsp;● 불멸자의 시조 그녀가 나타나다.<br>&emsp;<a href="https://tvwiki22.com/movie/28111" class="btn btn--info">올드가드2 바로가기</a>
-<br>
-&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
+<style>
+body{
+    font-family: Arial, sans-serif;
+    background:#f4f4f4;
+    margin:0;
+}
 
-<br><br>
-# 드라마
-## 오징어게임
-### - 오징어게임1
-&emsp;● 성기훈의 운명은? 우승상금 456억원.<br>&emsp;<a href="https://tvwiki22.com/old_drama/1579" class="btn btn--info">오징어게임1 바로가기</a>
-<br>
-&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
+.container{
+    width:90%;
+    max-width:700px;
+    margin:40px auto;
+}
 
-### - 오징어게임2
-&emsp;● 성기훈의 운명은? 우승상금 456억원.<br>&emsp;<a href="https://tvwiki22.com/drama/1802" class="btn btn--info">오징어게임2 바로가기</a>
-<br>
-&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
+h1{
+    text-align:center;
+    color:#333;
+}
 
-### - 오징어게임3
-&emsp;● 성기훈의 운명은? 우승상금 456억원.<br>&emsp;<a href="https://tvwiki22.com/drama/4966" class="btn btn--info">오징어게임3 바로가기</a>
-<br>
-&emsp;<a href="#" class="btn btn--success">Back to top</a>
-<br>
+.card{
+    background:white;
+    margin:15px 0;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+}
 
-## 광장
-● 소지섭의 멋진 액션신. 주먹으로 거리를 제패한다.<br><a href="https://tvwiki22.com/drama/4644/406539907" class="btn btn--info">광장 바로가기</a>
-<br>
-<a href="#" class="btn btn--success">Back to top</a>
-<br>
+button{
+    width:100%;
+    padding:15px;
+    margin-top:10px;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    background:#0078ff;
+    color:white;
+}
+
+button:hover{
+    background:#005ed6;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🎬 영화 사이트 바로가기</h1>
+
+<div class="card">
+<h3>Netflix</h3>
+<p>넷플릭스 영화 및 드라마</p>
+<button onclick="openSite('https://www.netflix.com')">
+바로가기
+</button>
+</div>
+
+<div class="card">
+<h3>Disney+</h3>
+<p>디즈니 플러스</p>
+<button onclick="openSite('https://www.disneyplus.com')">
+바로가기
+</button>
+</div>
+
+<div class="card">
+<h3>Watcha</h3>
+<p>왓챠</p>
+<button onclick="openSite('https://watcha.com')">
+바로가기
+</button>
+</div>
+
+<div class="card">
+<h3>TVING</h3>
+<p>티빙</p>
+<button onclick="openSite('https://www.tving.com')">
+바로가기
+</button>
+</div>
+
+<div class="card">
+<h3>Coupang Play</h3>
+<p>쿠팡플레이</p>
+<button onclick="openSite('https://www.coupangplay.com')">
+바로가기
+</button>
+</div>
+
+<div class="card">
+<h3>IMDb</h3>
+<p>영화 평점 및 정보</p>
+<button onclick="openSite('https://www.imdb.com')">
+바로가기
+</button>
+</div>
+
+</div>
+
+<script>
+function openSite(url){
+    window.open(url,"_blank");
+}
+</script>
+
+</body>
+</html>
