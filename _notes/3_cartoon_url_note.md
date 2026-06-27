@@ -12,7 +12,6 @@ sidebar:
 
 📚 웹툰.
 
-<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
@@ -140,6 +139,7 @@ button:hover{
 </div>
 
 # 뉴토끼 
+
 <div class="card">
 <h2>뉴토끼</h2>
 <p>웹툰 · 웹소설</p>
