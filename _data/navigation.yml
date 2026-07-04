@@ -155,8 +155,9 @@ news-2026-07:
   - title: "1st week"
     children:
       - title: "2026-07-04(토)"
+        url: https://bjlim413.github.io/news/2026/2026-07/2026-07-04-news/
+      - title: "2026-07-05(일)"
         url: 
-
 
 # news-2026-06 links
 news-2026-06:
