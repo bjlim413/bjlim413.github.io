@@ -158,10 +158,10 @@ news-2026-07:
         url: https://bjlim413.github.io/news/2026/2026-07/2026-07-04-news/
   - title: "2nd week"
     children:
-      - title: "2026-07-05(일)"
-        url: 
       - title: "2026-07-07(화)"
         url: https://bjlim413.github.io/news/2026/2026-07/2026-07-07-news/
+      - title: "2026-07-09(목)"
+        url: https://bjlim413.github.io/news/2026/2026-07/2026-07-09-news/
 
 # news-2026-06 links
 news-2026-06:
