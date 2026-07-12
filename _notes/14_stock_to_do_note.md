@@ -117,7 +117,7 @@ sidebar:
 <br> 
 
 #### CONY
-<a href="https://www.hancomdocs.com/ko/" class="btn btn--success">
+<a href="https://www.hancomdocs.com/ko/" class="btn btn btn--info">한컴독스</a>
 
 <br>
 <a href="#" class="btn btn--success">Back to top</a>
