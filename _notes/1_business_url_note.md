@@ -5,6 +5,7 @@ excerpt: 1st Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "book"  # corresponding Font Awesome icon name (without fa prefix)
+toc_sticky: "false"
 sidebar:
   title: "More Notes.."
   nav: sidebar-notes
