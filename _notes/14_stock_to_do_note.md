@@ -14,7 +14,7 @@ sidebar:
 ## 2026-07
 
 ### 7월 12일(일)
-#### 국내 주식
+#### - 국내 주식
 <a href="https://www.tossinvest.com/" class="btn btn btn--info">토스증권</a>
   ```
   기업은행
@@ -62,7 +62,7 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
   
-#### 해외 주식
+#### - 해외 주식
 <a href="https://www.investing.com/" class="btn btn btn--info">인베스팅닷컴</a>
   ```
   나스닥
@@ -118,7 +118,7 @@ sidebar:
 <a href="#" class="btn btn--success">Back to top</a>
 <br> 
 
-#### CONY
+#### - CONY
 <a href="https://www.hancomdocs.com/ko/" class="btn btn btn--info">한컴독스</a>
 
 <br>
