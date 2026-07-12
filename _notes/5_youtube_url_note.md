@@ -127,3 +127,13 @@ sidebar:
 <br>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
+
+<br><br>
+# 뉴진스(NewJeans)
+## Attention
+● 아이돌 노래.<br><a href="https://www.youtube.com/watch?v=CHp0Kaidr14" class="btn btn--info">Attention 바로가기</a>
+<br>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/CHp0Kaidr14" frameborder="0" allowfullscreen></iframe>
+<br>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
