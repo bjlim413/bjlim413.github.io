@@ -5,10 +5,16 @@ excerpt: 14th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "otter"
+toc_sticky: false
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
 ---
+
+## 2026-07
+
+### 7월 12일(일)
+- 
 
 ## 2026-03
 
