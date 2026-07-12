@@ -5,6 +5,7 @@ excerpt: 7th Note
 toc: true
 toc_label: "table of  contents"
 toc_icon: "church"
+toc_sticky: "false"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
