@@ -5,6 +5,7 @@ excerpt: 4th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "file"
+toc_sticky: "false"
 sidebar:
   title: "More Notes.."
   nav: sidebar-notes
