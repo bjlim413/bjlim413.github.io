@@ -5,6 +5,7 @@ excerpt: 6th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "business-time"
+toc_sticky: "false"
 sidebar:
   title: "More Notes.."
   nav: sidebar-notes
