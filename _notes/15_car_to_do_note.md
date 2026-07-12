@@ -44,25 +44,13 @@ sidebar:
 
 // 원본 데이터
 const data = [
+{date:"2026.07.12(일)",score:95},
 {date:"2026.06.27(토)",score:95},
 {date:"2026.03.02(월)",score:97},
 {date:"2026.02.11(수)",score:96},
-{date:"2026.01.30(금)",score:95},
-{date:"2026.01.26(월)",score:94},
-{date:"2026.01.18(일)",score:95},
-{date:"2026.01.03(토)",score:96},
-{date:"2025.12.28(일)",score:95},
-{date:"2025.12.27(토)",score:93},
-{date:"2025.12.24(수)",score:94},
-{date:"2025.12.23(화)",score:92},
-{date:"2025.12.22(월)",score:93},
-{date:"2025.12.14(일)",score:92},
-{date:"2025.11.30(일)",score:94},
-{date:"2025.11.28(금)",score:92},
-{date:"2025.11.27(목)",score:93},
-{date:"2025.11.23(일)",score:92},
-{date:"2025.11.22(토)",score:93},
-{date:"2025.11.16(일)",score:91}
+{date:"2026.01.30(금)",score:95},{date:"2026.01.26(월)",score:94},{date:"2026.01.18(일)",score:95},{date:"2026.01.03(토)",score:96},
+{date:"2025.12.28(일)",score:95},{date:"2025.12.27(토)",score:93},{date:"2025.12.24(수)",score:94},{date:"2025.12.23(화)",score:92},{date:"2025.12.22(월)",score:93},{date:"2025.12.14(일)",score:92},
+{date:"2025.11.30(일)",score:94},{date:"2025.11.28(금)",score:92},{date:"2025.11.27(목)",score:93},{date:"2025.11.23(일)",score:92},{date:"2025.11.22(토)",score:93},{date:"2025.11.16(일)",score:91}
 ];
 
 // 월별 그룹화
@@ -173,6 +161,8 @@ max:100
 🧪 예열 여부
 <!-- 년/월 필터 버튼 -->
 <div id="filters">
+  <a href="#" data-filter="2026-07" class="filter">2026-03</a> |
+  <a href="#" data-filter="2026-06" class="filter">2026-03</a> |
   <a href="#" data-filter="2026-03" class="filter">2026-03</a> |
   <a href="#" data-filter="2026-02" class="filter">2026-02</a> |
   <a href="#" data-filter="2026-01" class="filter">2026-01</a> |
@@ -195,6 +185,10 @@ max:100
   </thead>
   <tbody>
     <!-- 실제 데이터 계속 -->
+    <!-- 2026-07 -->
+    <tr data-date="2026-07"><td>2026.07.11(토)</td><td>0</td></tr>
+    <!-- 2026-06 -->
+    <tr data-date="2026-06"><td>/</td><td>0</td></tr>
     <!-- 2026-03 -->
     <tr data-date="2026-03"><td>2026.03.08(일)</td><td>1</td></tr>
     <tr data-date="2026-03"><td>2026.03.07(토)</td><td>1</td></tr>
