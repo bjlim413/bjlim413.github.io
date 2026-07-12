@@ -5,7 +5,7 @@ excerpt: 14th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "otter"
-toc_sticky: false
+toc_sticky: "false"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
