@@ -5,6 +5,7 @@ excerpt: 11th Note
 toc: true
 toc_label: "Table of Contents"
 toc_icon: "comment"
+toc_sticky: "false"
 sidebar:
   title: "More Notes"
   nav: sidebar-notes
