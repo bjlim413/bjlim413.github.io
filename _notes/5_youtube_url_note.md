@@ -107,3 +107,13 @@ sidebar:
 <br>
 <a href="#" class="btn btn--success">Back to top</a>
 <br>
+
+<br><br>
+# RESCENE(리센느)
+## LOVE ATTACK
+● 아이돌 노래.<br><a href="https://www.youtube.com/watch?v=ajhEFz1zNMQ" class="btn btn--info">LOVE ATTACK 바로가기</a>
+<br>
+<iframe width="640" height="360" src="https://www.youtube.com/embed/ajhEFz1zNMQ" frameborder="0" allowfullscreen></iframe>
+<br>
+<a href="#" class="btn btn--success">Back to top</a>
+<br>
