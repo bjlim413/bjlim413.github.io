@@ -16,191 +16,232 @@ sidebar:
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>세금 납부 현황</title>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:'Pretendard','Malgun Gothic',sans-serif;
-}
+  *{margin:0; padding:0; box-sizing:border-box; font-family:'Pretendard','Malgun Gothic',sans-serif;}
+  body{background:#f4f6f9; padding:40px 20px;}
+  .container{max-width:1000px; margin:auto;}
+  .card{background:#fff; border-radius:16px; box-shadow:0 8px 25px rgba(0,0,0,.08); padding:30px; margin-bottom:24px;}
+  h2{margin-bottom:4px; color:#1e2733;}
+  .sub{color:#777; margin-bottom:24px; font-size:14px;}
 
-body{
-    background:#f4f6f9;
-    padding:40px;
-}
+  .toolbar{display:flex; align-items:center; gap:10px; margin-bottom:24px; flex-wrap:wrap;}
+  .toolbar label{font-size:14px; color:#555; font-weight:600;}
+  select{
+    padding:9px 14px; border-radius:8px; border:1px solid #dfe3ea;
+    font-size:14px; background:#fff; cursor:pointer;
+  }
 
-.container{
-    max-width:1000px;
-    margin:auto;
-}
+  .summary{
+    display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:15px; margin-bottom:30px;
+  }
+  .item{background:#f8fafc; border-left:5px solid #4F81FF; border-radius:10px; padding:18px;}
+  .item .title{color:#666; font-size:13px;}
+  .item .value{margin-top:8px; font-size:22px; font-weight:bold; color:#222;}
+  .item.blue{border-left-color:#4F81FF;}
+  .item.green{border-left-color:#55C1A7;}
+  .item.amber{border-left-color:#F6B93B;}
 
-.card{
-    background:#fff;
-    border-radius:16px;
-    box-shadow:0 8px 25px rgba(0,0,0,.08);
-    padding:30px;
-}
+  .chart-area{height:380px; position:relative;}
 
-h2{
-    margin-bottom:8px;
-    color:#222;
-}
+  footer{text-align:center; color:#9aa4b2; font-size:12px; padding:10px 0 30px;}
 
-.sub{
-    color:#777;
-    margin-bottom:30px;
-}
-
-.summary{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
-    gap:15px;
-    margin-bottom:30px;
-}
-
-.item{
-    background:#f8fafc;
-    border-left:5px solid #4F81FF;
-    border-radius:10px;
-    padding:18px;
-}
-
-.item .title{
-    color:#666;
-    font-size:14px;
-}
-
-.item .value{
-    margin-top:8px;
-    font-size:22px;
-    font-weight:bold;
-    color:#222;
-}
-
-.chart-area{
-    height:450px;
-}
+  @media (max-width:600px){
+    body{padding:20px 12px;}
+    .card{padding:20px;}
+    .chart-area{height:300px;}
+  }
 </style>
-
 </head>
 <body>
 
 <div class="container">
 
-<div class="card">
+  <div class="card">
+    <h2>📊 세금 납부 현황</h2>
+    <div class="sub">세금 종류별 · 연도별 납부 금액을 한눈에 확인하세요</div>
 
-<h2>세금 납부 현황</h2>
-<div class="sub">세금 종류별 납부 금액</div>
+    <div class="toolbar">
+      <label for="yearSelect">연도 선택</label>
+      <select id="yearSelect" onchange="updateAll()">
+        <option value="all">전체</option>
+      </select>
+    </div>
 
-<div class="summary">
+    <div class="summary" id="summary"></div>
+  </div>
 
-<div class="item">
-<div class="title">총 납부금액</div>
-<div class="value" id="total"></div>
+  <div class="card">
+    <h2 style="font-size:17px;">세목별 납부금액</h2>
+    <div class="sub">선택한 연도 기준 세금 종류별 합계</div>
+    <div class="chart-area"><canvas id="barChart"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2 style="font-size:17px;">월별 납부 추이</h2>
+    <div class="sub">선택한 연도 기준 1월~12월 납부 합계</div>
+    <div class="chart-area"><canvas id="lineChart"></canvas></div>
+  </div>
+
 </div>
 
-<div class="item">
-<div class="title">세금 종류</div>
-<div class="value">5건</div>
-</div>
-
-</div>
-
-<div class="chart-area">
-<canvas id="taxChart"></canvas>
-</div>
-
-</div>
-
-</div>
+<footer>세금 납부 현황 대시보드 · Chart.js 기반</footer>
 
 <script>
-
+// ===== 데이터: 납부 건별로 구성 (year, month, tax, amount) =====
 const taxData = [
-    {
-        name:"재산세(주택)",
-        amount:450000
-    },
-    {
-        name:"주민세(개인분)",
-        amount:12500
-    },
-    {
-        name:"취득세(부동산)",
-        amount:3200000
-    },
-    {
-        name:"취득세(차량)",
-        amount:680000
-    },
-    {
-        name:"자동차세(자동차)",
-        amount:310000
-    }
+  { year:2022, month:1, tax:"자동차세(자동차)", amount:155000 },
+  { year:2022, month:6, tax:"자동차세(자동차)", amount:155000 },
+  { year:2022, month:7, tax:"재산세(주택)", amount:230000 },
+  { year:2022, month:9, tax:"재산세(주택)", amount:220000 },
+  { year:2022, month:8, tax:"주민세(개인분)", amount:12500 },
+
+  { year:2023, month:2, tax:"취득세(차량)", amount:680000 },
+  { year:2023, month:6, tax:"자동차세(자동차)", amount:160000 },
+  { year:2023, month:7, tax:"재산세(주택)", amount:240000 },
+  { year:2023, month:9, tax:"재산세(주택)", amount:235000 },
+
+  { year:2024, month:3, tax:"취득세(부동산)", amount:3200000 },
+  { year:2024, month:6, tax:"자동차세(자동차)", amount:165000 },
+  { year:2024, month:7, tax:"재산세(주택)", amount:250000 },
+  { year:2024, month:8, tax:"주민세(개인분)", amount:12500 },
+  { year:2024, month:9, tax:"재산세(주택)", amount:245000 },
+
+  { year:2025, month:6, tax:"자동차세(자동차)", amount:170000 },
+  { year:2025, month:7, tax:"재산세(주택)", amount:255000 },
+  { year:2025, month:8, tax:"주민세(개인분)", amount:12500 },
+  { year:2025, month:9, tax:"재산세(주택)", amount:250000 }
 ];
 
-const total = taxData.reduce((sum,item)=>sum+item.amount,0);
+const TAX_TYPES = ["재산세(주택)","주민세(개인분)","취득세(부동산)","취득세(차량)","자동차세(자동차)"];
+const COLORS = ["#4F81FF","#55C1A7","#F6B93B","#E66767","#8E6CEF"];
 
-document.getElementById("total").innerHTML =
-total.toLocaleString()+"원";
-
-new Chart(document.getElementById("taxChart"),{
-
-type:"bar",
-
-data:{
-labels:taxData.map(x=>x.name),
-
-datasets:[{
-label:"납부금액",
-data:taxData.map(x=>x.amount),
-
-backgroundColor:[
-"#4F81FF",
-"#55C1A7",
-"#F6B93B",
-"#E66767",
-"#8E6CEF"
-],
-
-borderRadius:8
-}]
-},
-
-options:{
-responsive:true,
-
-plugins:{
-legend:{
-display:false
-},
-
-tooltip:{
-callbacks:{
-label:function(context){
-return context.raw.toLocaleString()+"원";
-}
-}
-}
-},
-
-scales:{
-y:{
-beginAtZero:true,
-ticks:{
-callback:function(value){
-return value.toLocaleString()+"원";
-}
-}
-}
-}
-}
-
+// ===== 연도 옵션 자동 생성 =====
+const years = [...new Set(taxData.map(d => d.year))].sort();
+const yearSelect = document.getElementById('yearSelect');
+years.forEach(y => {
+  const opt = document.createElement('option');
+  opt.value = y;
+  opt.textContent = y + "년";
+  yearSelect.appendChild(opt);
 });
 
+function fmt(n){ return n.toLocaleString() + "원"; }
+
+function getFilteredData(){
+  const y = yearSelect.value;
+  return y === "all" ? taxData : taxData.filter(d => d.year == y);
+}
+
+let barChart, lineChart;
+
+function updateSummary(data){
+  const total = data.reduce((s, d) => s + d.amount, 0);
+  const count = data.length;
+  const avg = count ? Math.round(total / count) : 0;
+
+  document.getElementById('summary').innerHTML = `
+    <div class="item blue">
+      <div class="title">총 납부금액</div>
+      <div class="value">${fmt(total)}</div>
+    </div>
+    <div class="item green">
+      <div class="title">납부 건수</div>
+      <div class="value">${count}건</div>
+    </div>
+    <div class="item amber">
+      <div class="title">건당 평균 납부액</div>
+      <div class="value">${fmt(avg)}</div>
+    </div>
+  `;
+}
+
+function updateBarChart(data){
+  const summary = {};
+  TAX_TYPES.forEach(t => summary[t] = 0);
+  data.forEach(d => { summary[d.tax] = (summary[d.tax] || 0) + d.amount; });
+
+  const values = TAX_TYPES.map(t => summary[t]);
+
+  if(barChart){
+    barChart.data.datasets[0].data = values;
+    barChart.update();
+    return;
+  }
+
+  barChart = new Chart(document.getElementById('barChart'), {
+    type: 'bar',
+    data: {
+      labels: TAX_TYPES,
+      datasets: [{
+        label: '납부금액',
+        data: values,
+        backgroundColor: COLORS,
+        borderRadius: 8
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => fmt(ctx.raw) } }
+      },
+      scales: {
+        y: { beginAtZero: true, ticks: { callback: v => v.toLocaleString() + "원" } }
+      }
+    }
+  });
+}
+
+function updateLineChart(data){
+  const monthly = Array(12).fill(0);
+  data.forEach(d => { monthly[d.month - 1] += d.amount; });
+
+  if(lineChart){
+    lineChart.data.datasets[0].data = monthly;
+    lineChart.update();
+    return;
+  }
+
+  lineChart = new Chart(document.getElementById('lineChart'), {
+    type: 'line',
+    data: {
+      labels: ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'],
+      datasets: [{
+        label: '월별 납부액',
+        data: monthly,
+        borderColor: '#4F81FF',
+        backgroundColor: 'rgba(79,129,255,0.12)',
+        tension: 0.35,
+        fill: true,
+        pointRadius: 4,
+        pointBackgroundColor: '#4F81FF'
+      }]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: ctx => fmt(ctx.raw) } }
+      },
+      scales: {
+        y: { beginAtZero: true, ticks: { callback: v => v.toLocaleString() + "원" } }
+      }
+    }
+  });
+}
+
+function updateAll(){
+  const data = getFilteredData();
+  updateSummary(data);
+  updateBarChart(data);
+  updateLineChart(data);
+}
+
+updateAll();
 </script>
 
 </body>
