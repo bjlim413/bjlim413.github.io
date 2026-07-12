@@ -45,6 +45,20 @@ sidebar:
 
   .chart-area{height:380px; position:relative;}
 
+  table{width:100%; border-collapse:collapse; font-size:14px;}
+  thead th{
+    background:#0f2340; color:#fff; padding:10px 12px; text-align:left; font-weight:600;
+  }
+  thead th:last-child{text-align:right;}
+  tbody td{padding:9px 12px; border-bottom:1px solid #eef1f6; color:#374151;}
+  tbody tr:nth-child(even){background:#f8fafc;}
+  tbody tr:hover{background:#eef2f8;}
+  .tax-badge{
+    display:inline-block; padding:3px 10px; border-radius:20px; font-size:12px; font-weight:600; color:#fff;
+  }
+  .amount-cell{text-align:right; font-weight:600; color:#1e2733;}
+  .empty-row td{text-align:center; color:#9aa4b2; padding:20px;}
+
   footer{text-align:center; color:#9aa4b2; font-size:12px; padding:10px 0 30px;}
 
   @media (max-width:600px){
@@ -84,6 +98,24 @@ sidebar:
     <div class="chart-area"><canvas id="lineChart"></canvas></div>
   </div>
 
+  <div class="card">
+    <h2 style="font-size:17px;">📋 납부 내역</h2>
+    <div class="sub">선택한 연도의 개별 납부 건 (최신순)</div>
+    <div style="overflow-x:auto;">
+      <table id="detailTable">
+        <thead>
+          <tr>
+            <th>연도</th>
+            <th>월</th>
+            <th>세금 종류</th>
+            <th style="text-align:right;">납부금액</th>
+          </tr>
+        </thead>
+        <tbody id="detailBody"></tbody>
+      </table>
+    </div>
+  </div>
+
 </div>
 
 <footer>세금 납부 현황 대시보드 · Chart.js 기반</footer>
@@ -91,34 +123,33 @@ sidebar:
 <script>
 // ===== 데이터: 납부 건별로 구성 (year, month, tax, amount) =====
 const taxData = [
-  { year:2026, month:7, tax:"재산세(주택)", amount:134020 },
-  { year:2026, month:6, tax:"자동차세(자동차)", amount:144610 },
-  { year:2026, month:6, tax:"자동차세(자동차)", amount:138080 },
+  { year:2022, month:1, tax:"자동차세(자동차)", amount:155000 },
+  { year:2022, month:6, tax:"자동차세(자동차)", amount:155000 },
+  { year:2022, month:7, tax:"재산세(주택)", amount:230000 },
+  { year:2022, month:9, tax:"재산세(주택)", amount:220000 },
+  { year:2022, month:8, tax:"주민세(개인분)", amount:12500 },
 
-  { year:2025, month:12, tax:"자동차세(자동차)", amount:39030 },
-  { year:2025, month:11, tax:"취득세(차량)", amount:2028180 },
-  { year:2025, month:10, tax:"재산세(주택)", amount:140500 },
-  { year:2025, month:8, tax:"주민세(개인분)", amount:6000 },
-  { year:2025, month:7, tax:"재산세(주택)", amount:136430 },
-  { year:2025, month:2, tax:"재산세(주택)", amount:144460 },
+  { year:2023, month:2, tax:"취득세(차량)", amount:680000 },
+  { year:2023, month:6, tax:"자동차세(자동차)", amount:160000 },
+  { year:2023, month:7, tax:"재산세(주택)", amount:240000 },
+  { year:2023, month:9, tax:"재산세(주택)", amount:235000 },
 
-  { year:2024, month:8, tax:"주민세(개인분)", amount:6000 },
-  { year:2024, month:7, tax:"재산세(주택)", amount:140460 }, 
+  { year:2024, month:3, tax:"취득세(부동산)", amount:3200000 },
+  { year:2024, month:6, tax:"자동차세(자동차)", amount:165000 },
+  { year:2024, month:7, tax:"재산세(주택)", amount:250000 },
+  { year:2024, month:8, tax:"주민세(개인분)", amount:12500 },
+  { year:2024, month:9, tax:"재산세(주택)", amount:245000 },
 
-  { year:2023, month:11, tax:"재산세(주택)", amount:155930 },
-  { year:2023, month:8, tax:"주민세(개인분)", amount:6000 },
-  { year:2023, month:7, tax:"재산세(주택)", amount:151400 },
-
-  { year:2022, month:9, tax:"재산세(주택)", amount:161250 },
-  { year:2022, month:8, tax:"주민세(개인분)", amount:6000 },
-  { year:2022, month:7, tax:"재산세(주택)", amount:161250 },
-
-  { year:2021, month:8, tax:"주민세(개인분)", amount:6000 },
-  { year:2021, month:6, tax:"취득세(부동산)", amount:4510000 }
+  { year:2025, month:6, tax:"자동차세(자동차)", amount:170000 },
+  { year:2025, month:7, tax:"재산세(주택)", amount:255000 },
+  { year:2025, month:8, tax:"주민세(개인분)", amount:12500 },
+  { year:2025, month:9, tax:"재산세(주택)", amount:250000 }
 ];
 
 const TAX_TYPES = ["재산세(주택)","주민세(개인분)","취득세(부동산)","취득세(차량)","자동차세(자동차)"];
 const COLORS = ["#4F81FF","#55C1A7","#F6B93B","#E66767","#8E6CEF"];
+const TAX_COLOR = {};
+TAX_TYPES.forEach((t, i) => TAX_COLOR[t] = COLORS[i]);
 
 // ===== 연도 옵션 자동 생성 =====
 const years = [...new Set(taxData.map(d => d.year))].sort();
@@ -237,11 +268,31 @@ function updateLineChart(data){
   });
 }
 
+function updateDetailTable(data){
+  const tbody = document.getElementById('detailBody');
+  const sorted = [...data].sort((a, b) => (b.year - a.year) || (b.month - a.month));
+
+  if(!sorted.length){
+    tbody.innerHTML = `<tr class="empty-row"><td colspan="4">해당 연도의 납부 내역이 없습니다.</td></tr>`;
+    return;
+  }
+
+  tbody.innerHTML = sorted.map(d => `
+    <tr>
+      <td>${d.year}년</td>
+      <td>${d.month}월</td>
+      <td><span class="tax-badge" style="background:${TAX_COLOR[d.tax] || '#999'};">${d.tax}</span></td>
+      <td class="amount-cell">${fmt(d.amount)}</td>
+    </tr>
+  `).join('');
+}
+
 function updateAll(){
   const data = getFilteredData();
   updateSummary(data);
   updateBarChart(data);
   updateLineChart(data);
+  updateDetailTable(data);
 }
 
 updateAll();
