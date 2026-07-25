@@ -7,6 +7,17 @@
 D1 저장 없이 이 화면에서만 정비 내역을 입력하고 차트를 바로 확인할 수 있습니다.
 (새로고침하면 데이터는 사라집니다 — 테스트용)
 
+## Wrangler Login
+```
+D:\>wrangler login
+
+ ⛅️ wrangler 4.109.0
+────────────────────
+Attempting to login via OAuth...
+Opening a link in your default browser: https://dash.cloudflare.com/oauth2/auth?response_type=code&client_id=54d11594-84e4-41aa-b438-e81b8fa78ee7&redirect_uri=http%3A%2F%2Flocalhost%3A8976%2Foauth%2Fcallback&scope=account%3Aread%20user%3Aread%20workers%3Awrite%20workers_kv%3Awrite%20workers_routes%3Awrite%20workers_scripts%3Awrite%20workers_tail%3Aread%20d1%3Awrite%20pages%3Awrite%20zone%3Aread%20ssl_certs%3Awrite%20ai%3Awrite%20ai-search%3Awrite%20ai-search%3Arun%20websearch.run%20agent-memory%3Awrite%20queues%3Awrite%20pipelines%3Awrite%20secrets_store%3Awrite%20artifacts%3Awrite%20flagship%3Awrite%20containers%3Awrite%20cloudchamber%3Awrite%20connectivity%3Aadmin%20email_routing%3Awrite%20email_sending%3Awrite%20browser%3Awrite%20challenge-widgets.write%20offline_access&state=SKnn82op5xS7u3LKiMcjmC3dhddDThRT&code_challenge=zegR70jKuMMuSgeXCy40r-oAAHp6wjC8fKqsKkvCCDU&code_challenge_method=S256
+Successfully logged in.
+```
+
 ## D1에 실제로 저장하려면
 
 ### 1. D1 생성 및 테이블 적용
