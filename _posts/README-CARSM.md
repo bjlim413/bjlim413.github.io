@@ -19,6 +19,11 @@ wrangler d1 execute car-instant-db --remote --file=./schema.sql
 ```
 이 한 번으로 테이블 생성 + 영수증 기준 초기 데이터(엔진오일 139,100원 + 에어컨필터 56,200원)까지 들어갑니다.
 
+기본 조회 명령어:
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance"
+```
+
 ### 2. Worker 배포
 ```bash
 wrangler deploy
