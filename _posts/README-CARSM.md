@@ -24,6 +24,31 @@ wrangler d1 execute car-instant-db --remote --file=./schema.sql
 wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance"
 ```
 
+`자주 쓸만한 예시`
+전체 정비 내역 조회:
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance ORDER BY id DESC"
+```
+특정 차종만 조회:
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance WHERE vehicle_id='v1'"
+```
+테이블 목록 확인:
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT name FROM sqlite_master WHERE type='table'"
+```
+주유/세차/방향제 테이블도 동일하게
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM fuel_records"
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM wash_records"
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM freshener_records"
+```
+결과를 JSON으로 받고 싶을 때 (스크립트에서 파싱하려는 경우):
+```bash
+wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance" --json
+```
+
+
 ### 2. Worker 배포
 ```bash
 wrangler deploy
