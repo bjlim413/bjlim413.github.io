@@ -24,6 +24,23 @@ Successfully logged in.
 ```bash
 wrangler d1 create car-instant-db
 ```
+```
+ ⛅️ wrangler 4.109.0 (update available 4.114.0)
+───────────────────────────────────────────────
+✅ Successfully created DB 'car-instant-db' in region APAC
+Created your new D1 database.
+
+To access your new D1 Database in your Worker, add the following snippet to your configuration file:
+{
+  "d1_databases": [
+    {
+      "binding": "car_instant_db",
+      "database_name": "car-instant-db",
+      "database_id": "83288125-df26-45ab-9b87-3aaf128c8963"
+    }
+  ]
+}
+```
 나온 database_id를 `wrangler.toml`에 붙여넣고:
 ```bash
 wrangler d1 execute car-instant-db --remote --file=./schema.sql
