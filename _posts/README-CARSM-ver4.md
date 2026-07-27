@@ -75,6 +75,44 @@ X [ERROR] A request to the Cloudflare API (/accounts/9e4afa6629a177c2b3beac4bd6c
 ```bash
 wrangler deploy
 ```
+## 에러 원인: HTML파일에 API 주소 미입력
+## 조치 방법: API 주소 입력
+```
+ ⛅️ wrangler 4.109.0 (update available 4.114.0)
+───────────────────────────────────────────────
+Total Upload: 6.19 KiB / gzip: 1.26 KiB
+Your Worker has access to the following bindings:
+Binding                      Resource
+env.DB (car-instant-db)      D1 Database
+
+
+X [ERROR] A request to the Cloudflare API (/accounts/9e4afa6629a177c2b3beac4bd6ca3172/workers/scripts/car-instant-db) failed.
+
+  binding DB of type d1 must have a valid `database_id` specified [code: 10021]
+  To learn more about this error, visit:
+  https://developers.cloudflare.com/workers/observability/errors/#validation-errors-10021
+
+
+  If you think this is a bug, please open an issue at:
+  https://github.com/cloudflare/workers-sdk/issues/new/choose
+
+
+🪵  Logs were written to "C:\Users\User\.wrangler\logs\wrangler-2026-07-25_01-13-16_748.log"
+
+D:\Car Service Management>wrangler deploy
+
+ ⛅️ wrangler 4.109.0 (update available 4.114.0)
+───────────────────────────────────────────────
+Total Upload: 6.19 KiB / gzip: 1.26 KiB
+Your Worker has access to the following bindings:
+Binding                      Resource
+env.DB (car-instant-db)      D1 Database
+
+Uploaded car-instant-db (1.52 sec)
+Deployed car-instant-db triggers (0.96 sec)
+  https://car-instant-db.iregg413.workers.dev
+Current Version ID: c793d71a-5c51-47be-9cfe-cbb29da820a8
+```
 
 ### 3. 대시보드에 연결
 `dashboard.html`을 열고 상단 "Worker 주소" 칸에 배포 주소 입력 후 [저장] 클릭. 이후부터:
