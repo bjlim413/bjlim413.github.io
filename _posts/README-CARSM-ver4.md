@@ -114,6 +114,29 @@ Deployed car-instant-db triggers (0.96 sec)
 Current Version ID: c793d71a-5c51-47be-9cfe-cbb29da820a8
 ```
 
+## DB 모음
+```
+D:\Car Service Management>wrangler d1 execute car-instant-db --remote --command="SELECT name FROM sqlite_master WHERE type='table'"
+```
+```
+D:\Car Service Management>wrangler d1 execute car-instant-db --remote --command="SELECT * FROM maintenance"
+```
+```
+D:\Car Service Management>wrangler d1 list
+```
+```
+D:\Car Service Management>wrangler d1 execute car-instant-db --remote --command="SELECT * FROM vehicles"
+```
+```
+D:\Car Service Management>wrangler d1 delete car-instant-db
+```
+```
+D:\Car Service Management>wrangler d1 create car-instant-db
+```
+```
+D:\Car Service Management>wrangler d1 execute car-instant-db --remote --file=./schema.sql
+```
+
 ### 3. 대시보드에 연결
 `dashboard.html`을 열고 상단 "Worker 주소" 칸에 배포 주소 입력 후 [저장] 클릭. 이후부터:
 - 정비 내역 저장 → **화면 차트는 즉시 갱신** (네트워크 기다리지 않음)
