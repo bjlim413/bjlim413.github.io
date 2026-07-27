@@ -47,6 +47,30 @@ wrangler d1 execute car-instant-db --remote --file=./schema.sql
 ```
 이 한 번으로 테이블 생성 + 영수증 기준 초기 데이터(엔진오일 139,100원 + 에어컨필터 56,200원)까지 들어갑니다.
 
+에러 원인: 현재 디렉토리에 wrangler.toml 파일이 존재하지 않음.
+조치 방법: wrangler.toml 파일생성 후 현재 디렉토리에 위치 시켜놓음.
+```
+ ⛅️ wrangler 4.109.0 (update available 4.114.0)
+───────────────────────────────────────────────
+Resource location: remote
+
+√ ⚠️ This process may take some time, during which your D1 database will be unavailable to serve queries.
+  Ok to proceed? ... yes
+🌀 Executing on remote database car-instant-db (83288125-df26-45ab-9b87-3aaf128c8963):
+🌀 To execute on your local development database, remove the --remote flag from your wrangler command.
+Note: if the execution fails to complete, your DB will return to its original state and you can safely retry.
+├ 🌀 Uploading 83288125-df26-45ab-9b87-3aaf128c8963.58c24bd55734608d.sql
+│ 🌀 Uploading complete.
+│
+
+X [ERROR] A request to the Cloudflare API (/accounts/9e4afa6629a177c2b3beac4bd6ca3172/d1/database/83288125-df26-45ab-9b87-3aaf128c8963/import) failed.
+
+  Upstream service unavailable [code: 7009]
+
+  If you think this is a bug, please open an issue at:
+  https://github.com/cloudflare/workers-sdk/issues/new/choose
+```
+
 ### 2. Worker 배포
 ```bash
 wrangler deploy
