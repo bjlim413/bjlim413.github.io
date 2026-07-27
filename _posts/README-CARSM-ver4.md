@@ -47,8 +47,8 @@ wrangler d1 execute car-instant-db --remote --file=./schema.sql
 ```
 이 한 번으로 테이블 생성 + 영수증 기준 초기 데이터(엔진오일 139,100원 + 에어컨필터 56,200원)까지 들어갑니다.
 
-에러 원인: 현재 디렉토리에 wrangler.toml 파일이 존재하지 않음.
-조치 방법: wrangler.toml 파일생성 후 현재 디렉토리에 위치 시켜놓음.
+## 에러 원인: 현재 디렉토리에 wrangler.toml 파일이 존재하지 않음.
+## 조치 방법: wrangler.toml 파일생성 후 현재 디렉토리에 위치 시켜놓음.
 ```
  ⛅️ wrangler 4.109.0 (update available 4.114.0)
 ───────────────────────────────────────────────
