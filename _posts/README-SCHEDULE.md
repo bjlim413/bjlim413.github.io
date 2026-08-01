@@ -38,6 +38,15 @@
 - **우선순위별 작업지시 목록**: 필터(전체/사분면별/완료)로 좁혀볼 수 있고, 각 항목마다
   구체적인 작업지시 문구가 함께 표시됨. 진행중 전환·완료 처리·수정·삭제 가능
 
+## Node.js command prompt 실행 및 Wrangler 로그인
+```bash
+# 1) 윈도우 창에 Node.js command prompt 검색
+실행 
+
+# 2) Wrangler 로그인
+wrangler login
+```
+
 ## 배포 방법
 
 ```bash
