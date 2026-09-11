@@ -124,6 +124,7 @@ sidebar:
 <script>
 // ===== 데이터: 납부 건별로 구성 (year, month, tax, amount) =====
 const taxData = [
+  { year:2026, month:9, tax:"재산세(주택)", amount:134020 },
   { year:2026, month:7, tax:"재산세(주택)", amount:134020 },
   { year:2026, month:6, tax:"자동차세(자동차)", amount:144610 },
   { year:2026, month:6, tax:"자동차세(자동차)", amount:138080 },
